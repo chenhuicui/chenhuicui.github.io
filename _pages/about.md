@@ -1,6 +1,6 @@
-I am currently working toward the Ph.D. degree at [School of Computer Science and Engineering](https://fie.must.edu.mo/page/id-1434.html?locale=en_US), [Macau University of Science and Technology (MUST)](https://www.must.edu.mo/index.html?locale=en_US). My research interest include software engineering (SE), software testing, and AI for SE.
+I am currently working toward the Ph.D. degree at the [School of Computer Science and Engineering](https://fie.must.edu.mo/page/id-1434.html?locale=en_US), [Macau University of Science and Technology (MUST)](https://www.must.edu.mo/index.html?locale=en_US). My research interests include software engineering (SE), software testing, and AI for SE.
 
-I am very fortunate to be advised by [Prof. Rubing Huang](https://huangrubing.github.io/) of M.U.S.T. AI+SE Lab from [School of Computer Science and Engineering](https://fie.must.edu.mo/page/id-1434.html?locale=en_US), Macau University of Science and Technology (MUST).
+I am very fortunate to be advised by [Prof. Rubing Huang](https://huangrubing.github.io/) of M.U.S.T. AI+SE Lab from the School of Computer Science and, Macau University of Science and Technology (MUST).
 
 
 [Email](mailto:3230002105@student.must.edu.mo) / [Github](https://github.com/chenhuicui)
