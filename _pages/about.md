@@ -19,7 +19,7 @@ MA.Sc in Computer Science and Technology, Jiangsu University, 2019 - 2022
 
 B.Eng in Software Engineering, Jiangsu University, 2015 - 2019
 
-My research interest include software engineering (SE), software testing, and AI for SE. For the publications, can refer to [Publications](https://chenhuicui.github.io//publications/).
+My research interest include software engineering (SE), software testing, and AI for SE. For the publications, can refer to [Publications](https://chenhuicui.github.io/publications/).
 
 
 # Work Experience
