@@ -3,15 +3,13 @@ index: 1
 abbpubname: "TSE'24"
 author: "Rubing Huang, <b>Chenhui Cui</b>, Junlong Lian, Dave Towey, Weifeng Sun, and Haibo Chen"
 title: "Toward Cost-effective Adaptive Random Testing: An Approximate Nearest Neighbor Approach"
-bookname: "IEEE Transactions on Software Engineering (TSE, CCF-A)"
+bookname: "IEEE Transactions on Software Engineering (TSE, CCF-A), to be published"
 year: "2024"
 collection: publications
-permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2009-10-01
-venue: 'Journal 1'
-paperurl: 'http://academicpages.github.io/files/paper1.pdf'
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+permalink: /publication/2024-03-10-paper-title-number-1
+date: 2024-03-10
+type: "J"
+paperurl: 'https://weifeng-sun.github.io/papers/TSE241.pdf'
 ---
 
 The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
