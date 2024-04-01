@@ -1,7 +1,10 @@
 ---
 index: 1
-xxx:
-title: "Paper Title Number 1"
+abbpubname: "TSE'24"
+author: "Rubing Huang, <b>Chenhui Cui</b>, Junlong Lian, Dave Towey, Weifeng Sun, and Haibo Chen"
+title: "Toward Cost-effective Adaptive Random Testing: An Approximate Nearest Neighbor Approach"
+bookname: "IEEE Transactions on Software Engineering (TSE, CCF-A)"
+year: "2024"
 collection: publications
 permalink: /publication/2009-10-01-paper-title-number-1
 excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
