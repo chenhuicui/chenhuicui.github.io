@@ -3,7 +3,7 @@ index: 1
 abbpubname: "TSE'24"
 author: "Rubing Huang, <b>Chenhui Cui</b>, Junlong Lian, Dave Towey, Weifeng Sun, and Haibo Chen"
 title: "Toward Cost-effective Adaptive Random Testing: An Approximate Nearest Neighbor Approach"
-bookname: "IEEE Transactions on Software Engineering (TSE, CCF-A), to be published"
+bookname: "IEEE Transactions on Software Engineering (TSE, <a color: #ff0000>CCF-A</a>), to be published"
 year: "2024"
 collection: publications
 permalink: /publication/2024-03-10-paper-title-number-1
