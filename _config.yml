@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Chenhui Cui/Personal Homepage"
+title                    : "Chenhui Cui's Personal Homepage"
 title_separator          : "-"
 name                     : &name "Chenhui Cui"
 description              : &description "Working toward the Ph.D. degree at M.U.S.T."
@@ -47,7 +47,7 @@ author:
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # # Social media
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : #"bsky.app" # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
