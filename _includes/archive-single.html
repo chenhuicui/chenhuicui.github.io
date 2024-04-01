@@ -19,7 +19,7 @@
           <span> {{ post.author }}, "{{ post.title }},"
               <em> {{ post.bookname}} </em>, {{post.year }}</span>
         </span>
-            <span class="pull-right"> <a {{ post.paperurl }} ><b>[PDF]</b></a></span>
+            <span class="pull-right"> <a href='{{ post.paperurl }}' ><b>[PDF]</b></a></span>
     </div>
 <!--  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">-->
 <!--    {% if include.type == "grid" and teaser %}-->
