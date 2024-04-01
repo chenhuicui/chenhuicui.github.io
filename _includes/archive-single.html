@@ -19,14 +19,12 @@
           <strong>{{ post.abbpubname }}</strong></span>
          <span> {{ post.author }}, "{{ post.title }},"
              <em> {{ post.bookname}}</em>, {{post.year }}</span>
-
-             <span class="pull-right">
                  {% if paperurl == "" %}
-                    <b></b>
+                    <span class="pull-right"><b></b></span>
                  {% else %}
-                    <a href="{{ post.paperurl }}"><b>[PDF]</b></a>
+                   <span class="pull-right"> <a href="{{ post.paperurl }}"><b>[PDF]</b></a></span>
                  {% endif %}
-             </span>
+
 
     </span>
 </div>
