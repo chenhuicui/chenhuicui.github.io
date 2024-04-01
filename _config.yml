@@ -12,7 +12,7 @@ title                    : "Chenhui Cui's Personal Homepage"
 title_separator          : "-"
 name                     : &name "Chenhui Cui"
 description              : &description "Working toward the Ph.D. degree at M.U.S.T."
-url                      : https://chenhuicui.github.io/
+url                      : https://chenhuicui.github.io
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "chenhuicui/chenhuicui.github.io"
 
