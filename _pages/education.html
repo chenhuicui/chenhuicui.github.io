@@ -1,11 +1,15 @@
 ---
 layout: archive
-title: "Education"
+title: "Education and Work Experience"
 permalink: /education/
 author_profile: true
 ---
 
 {% include base_path %}
+
+{% for post in site.education reversed %}
+  {% include archive-single-education.html %}
+{% endfor %}
 
 {% for post in site.education reversed %}
   {% include archive-single-education.html %}
