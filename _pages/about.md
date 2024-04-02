@@ -6,7 +6,7 @@ author_profile: true
 
 I am currently working toward the Ph.D. degree at School of Computer Science and Engineering, Macau University of Science and Technology (MUST). 
 
-I am very fortunate to be advised by [Prof. Rubing Huang](https://huangrubing.github.io/) of M.U.S.T. AI+SE Lab from M.U.S.T.
+I am very fortunate to be advised by [Dr. Rubing Huang](https://huangrubing.github.io/) of M.U.S.T. AI+SE Lab from M.U.S.T.
 
 # Education and Academic Background
 
