@@ -6,7 +6,7 @@ title: "Poster: Is Euclidean Distance the best Distance Measurement for Adaptive
 bookname: "The 13th IEEE International Conference on Software Testing, Validation and Verification (ICST, CCF-C), Poster Track"
 year: "2020"
 collection: publications
-permalink: /publication/2020-10-24-paper-title-number-7
+permalink: /publication/2020-10-24-paper-title-number-8
 date: 2020-10-24
 type: "C"
 paperurl: "https://chenhuicui.github.io/papers/ICST201.pdf"

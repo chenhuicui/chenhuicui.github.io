@@ -6,7 +6,7 @@ title: "Which Type of Exclusion Region is Better for Restricted Random Testing? 
 bookname: "The 36th Annual ACM Symposium on Applied Computing (SAC, EI), Short paper"
 year: "2021"
 collection: publications
-permalink: /publication/2021-04-22-paper-title-number-6
+permalink: /publication/2021-04-22-paper-title-number-7
 date: 2021-04-22
 type: "C"
 paperurl: "https://chenhuicui.github.io/papers/SAC211.pdf"
