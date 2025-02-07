@@ -1,5 +1,5 @@
 ---
-index: 3
+index: 5
 abbpubname: "SCP'22"
 author: "Rubing Huang, Weifeng Sun, Haibo Chen, <b>Chenhui Cui</b>, and Ning Yang"
 title: "A Nearest-Neighbor Divide-and-Conquer Approach for Adaptive Random Testing"

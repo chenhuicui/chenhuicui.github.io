@@ -1,5 +1,5 @@
 ---
-index: 6
+index: 7
 abbpubname: "SAC'21"
 author: "Weifeng Sun, Rubing Huang, <b>Chenhui Cui</b>, Haibo Chen, Weijie Liu"
 title: "Which Type of Exclusion Region is Better for Restricted Random Testing? An Empirical Study"

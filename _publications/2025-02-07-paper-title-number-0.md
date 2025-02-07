@@ -1,9 +1,9 @@
 ---
 index: 0
-abbpubname: "TST'24"
+abbpubname: "TR'24"
 author: "Tao Li, <b>Chenhui Cui</b>, Yinyin Xu, and Rubing Huang"
 title: "Applying Lexicographical Ordering to Software Product Line Testing"
-bookname: "IEEE Transactions on Reliability (IEEE-TR, JCR Q1), to be published"
+bookname: "IEEE Transactions on Reliability (TR, JCR Q1), to be published"
 year: "2025"
 collection: publications
 permalink: /publication/2025-02-07-paper-title-number-0

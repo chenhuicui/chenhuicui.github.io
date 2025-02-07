@@ -1,5 +1,5 @@
 ---
-index: 3
+index: 4
 abbpubname: "TR'24"
 author: "Rubing Huang, <b>Chenhui Cui</b>, Dave Towey, Weifeng Sun, and Junlong Lian"
 title: "VPP-ART: An Efficient Implementation of Fixed-Size-Candidate-Set Adaptive Random Testing Using Vantage Point Partitioning"
