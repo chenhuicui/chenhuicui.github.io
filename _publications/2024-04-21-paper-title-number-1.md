@@ -1,5 +1,5 @@
 ---
-index: 1
+index: 2
 abbpubname: "TST'24"
 author: "<b>Chenhui Cui</b>, Tao Li, Rubing Huang, and Dave Towey"
 title: "Prioritization of Abstract Test Cases by Weighting Covered Value Combinations"

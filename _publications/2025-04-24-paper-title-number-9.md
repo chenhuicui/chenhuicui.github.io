@@ -1,13 +1,13 @@
 ---
-index: 1
-abbpubname: "TR'24"
-author: "Tao Li, <b>Chenhui Cui</b>, Yinyin Xu, and Rubing Huang"
-title: "Applying Lexicographical Ordering to Software Product Line Testing"
-bookname: "IEEE Transactions on Reliability (TR, JCR Q1), to be published"
+index: 0
+abbpubname: "EAAI'25"
+author: "Qi Dong, Rubing Huanga, <b>Chenhui Cui</b>, Dave Towey, Ling Zhou, Jinyu Tian, Jianzhou Wang"
+title: "Short-Term Electricity-Load Forecasting by Deep Learning: A Comprehensive Survey"
+bookname: "Engineering Applications of Artificial Intelligence"
 year: "2025"
 collection: publications
-permalink: /publication/2025-02-07-paper-title-number-0
-date: 2025-02-07
+permalink: /publication/2025-04-24-paper-title-number-9
+date: 2025-04-24
 type: "J"
 paperurl: ""
 ---
