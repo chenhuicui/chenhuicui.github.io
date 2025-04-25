@@ -3,7 +3,7 @@ index: 0
 abbpubname: "EAAI'25"
 author: "Qi Dong, Rubing Huanga, <b>Chenhui Cui</b>, Dave Towey, Ling Zhou, Jinyu Tian, Jianzhou Wang"
 title: "Short-Term Electricity-Load Forecasting by Deep Learning: A Comprehensive Survey"
-bookname: "Engineering Applications of Artificial Intelligence"
+bookname: "Engineering Applications of Artificial Intelligence  (EAAI, JCR Q1), to be published"
 year: "2025"
 collection: publications
 permalink: /publication/2025-04-24-paper-title-number-9
