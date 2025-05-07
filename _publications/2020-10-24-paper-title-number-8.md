@@ -1,5 +1,5 @@
 ---
-index: 9
+index: 10
 abbpubname: "ICST'20"
 author: "Rubing Huang, <b>Chenhui Cui</b>, Weifeng Sun, and Dave Towey"
 title: "Poster: Is Euclidean Distance the best Distance Measurement for Adaptive Random Testing?"

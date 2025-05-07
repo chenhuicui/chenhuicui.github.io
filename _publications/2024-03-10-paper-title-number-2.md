@@ -1,5 +1,5 @@
 ---
-index: 3
+index: 4
 abbpubname: "TSE'24"
 author: "Rubing Huang, <b>Chenhui Cui</b>, Junlong Lian, Dave Towey, Weifeng Sun, and Haibo Chen"
 title: "Toward Cost-effective Adaptive Random Testing: An Approximate Nearest Neighbor Approach"

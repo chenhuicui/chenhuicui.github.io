@@ -1,13 +1,13 @@
 ---
-index: 5
-abbpubname: "TST'24"
-author: "<b>Chenhui Cui</b>, Rubing Huang, Jinfu Chen, and Yunan Zhou"
-title: "Output Type Guided Random Test Case Generation for String Validation Routines"
-bookname: "Tsinghua Science and Technology (TST, JCR Q1), to be published"
-year: "2024"
+index: 0
+abbpubname: "TOSEM'25"
+author: "Tao Li, <b>Chenhui Cui</b>, Rubing Huang, Dave Towey, Lei Ma"
+title: "Large Language Models for Automated Web-Form-Test Generation: An Empirical Study"
+bookname: "ACM Transactions on Software Engineering and Methodology (TOSEM, JCR Q1, CCF-A), to be published"
+year: "2025"
 collection: publications
-permalink: /publication/2024-02-10-paper-title-number-3
-date: 2024-02-10
+permalink: /publication/2025-05-06-paper-title-number-10
+date: 2025-05-06
 type: "J"
 paperurl: ""
 ---

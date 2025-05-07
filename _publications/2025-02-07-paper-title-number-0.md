@@ -1,5 +1,5 @@
 ---
-index: 1
+index: 2
 abbpubname: "TR'24"
 author: "Tao Li, <b>Chenhui Cui</b>, Yinyin Xu, and Rubing Huang"
 title: "Applying Lexicographical Ordering to Software Product Line Testing"
