@@ -348,102 +348,123 @@ function loadPublications() {
 }
 
 function getVenueShortName(venueStr, year) {
-    if (!venueStr) return 'Preprint';
-    
-    // Remove year (4 digits at end or start)
-    let s = venueStr.replace(/\d{4}/g, '').trim();
-    let suffix = '';
-    
-    // Check if it is a conference that needs year suffix
-    const conferences = ['NeurIPS', 'CVPR', 'ICCV', 'ECCV', 'ICRA', 'AAAI', 'GLOBECOM', 'INFOCOM', 'MOBICOM'];
-    for (const conf of conferences) {
-        if (s.includes(conf)) {
-            // Get last two digits of year
-            if (year) {
-                const yearStr = year.toString();
-                if (yearStr.length === 4) {
-                    suffix = "'" + yearStr.substring(2);
-                }
-            }
-            return conf + suffix;
+    if (!venueStr) return "Preprint";
+
+    // Remove any year digits from venue string
+    const s = venueStr.replace(/\d{4}/g, "").trim();
+    const y2 = (year && year.toString().length === 4) ? "'" + year.toString().slice(2) : "";
+
+    // arXiv
+    if (s.toLowerCase().includes("arxiv")) return "ArXiv";
+
+    // --- SE / Testing / AI4SE common venues ---
+    const map = [
+        // Journals
+        { key: ["IEEE Transactions on Software Engineering", "TSE"], short: "TSE" },
+        { key: ["ACM Transactions on Software Engineering and Methodology", "TOSEM"], short: "TOSEM" },
+        { key: ["IEEE Transactions on Reliability", "Transactions on Reliability", "TR"], short: "TR" },
+        { key: ["Tsinghua Science and Technology", "TST"], short: "TST" },
+        { key: ["Science of Computer Programming", "SCP"], short: "SCP" },
+        { key: ["Journal of Systems and Software", "JSS"], short: "JSS" },
+        { key: ["Engineering Applications of Artificial Intelligence", "EAAI"], short: "EAAI" },
+        { key: ["Applied Soft Computing"], short: "ASC" }, // 常见缩写也叫 ASOC，可自行改
+
+        // Conferences
+        { key: ["International Conference on Software Engineering", "ICSE"], short: "ICSE", conf: true },
+        { key: ["ACM SIGSOFT International Symposium on Software Testing and Analysis", "ISSTA"], short: "ISSTA", conf: true },
+        { key: ["International Conference on Automated Software Engineering", "ASE"], short: "ASE", conf: true },
+        { key: ["International Conference on Software Testing, Validation and Verification", "ICST"], short: "ICST", conf: true },
+        { key: ["ACM Symposium on Applied Computing", "SAC"], short: "SAC", conf: true },
+        { key: ["International Conference on Dependable Systems and Their Applications", "DSA"], short: "DSA", conf: true }
+    ];
+
+    for (const item of map) {
+        if (item.key.some(k => s.includes(k))) {
+            // Conference: add year suffix; Journal: no suffix
+            return item.short + (item.conf ? y2 : "");
         }
     }
 
-    // Special cases
-    if (s.toLowerCase().includes('arxiv')) return 'ArXiv'; // No year
-    
-    // Journals or specific conferences
-    if (s.includes('TDSC')) return 'IEEE TDSC';
-    if (s.includes('TMC')) return 'IEEE TMC';
-    if (s.includes('JSAC')) return 'IEEE JSAC';
-    if (s.includes('TGCN')) return 'IEEE TGCN';
-    if (s.includes('LNET')) return 'IEEE LNET';
-    if (s.includes('TNSE')) return 'IEEE TNSE';
-    if (s.includes('IOTJ') || s.includes('IoTJ')) return 'IEEE IoTJ';
-
+    // Fallback: return cleaned string
     return s;
 }
 
 function getVenueFullName(venueStr, year) {
-    if (!venueStr) return '';
-    let s = venueStr.replace(/\d{4}/g, '').trim(); // Remove year
-    
-    // Get year suffix for conferences
-    let yearSuffix = '';
-    if (year) {
-        const yearStr = year.toString();
-        if (yearStr.length === 4) {
-            yearSuffix = "'" + yearStr.substring(2);
-        }
-    }
+    if (!venueStr) return "";
+    const s = venueStr.replace(/\d{4}/g, "").trim();
+    const y2 = (year && year.toString().length === 4) ? "'" + year.toString().slice(2) : "";
 
-    // Journal Full Names Mapping (No Year)
-    if (s.includes('TDSC')) return 'IEEE Transactions on Dependable and Secure Computing';
-    if (s.includes('TMC')) return 'IEEE Transactions on Mobile Computing';
-    if (s.includes('JSAC')) return 'IEEE Journal on Selected Areas in Communications';
-    if (s.includes('TGCN')) return 'IEEE Transactions on Green Communications and Networking';
-    if (s.includes('TNSE')) return 'IEEE Transactions on Network Science and Engineering';
-    if (s.includes('IoTJ') || s.includes('IoTJ')) return 'IEEE Internet of Things Journal';
-    if (s.includes('LNET') || s.includes('LNet')) return 'IEEE Networking Letters';
-    
-    // Conference Full Names Mapping (With Year Suffix)
-    if (s.includes('NeurIPS')) return `Annual Conference on Neural Information Processing Systems (NeurIPS${yearSuffix})`;
-    if (s.includes('CVPR')) return `IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR${yearSuffix})`;
-    if (s.includes('ICCV')) return `IEEE/CVF International Conference on Computer Vision (ICCV${yearSuffix})`;
-    if (s.includes('ECCV')) return `European Conference on Computer Vision (ECCV${yearSuffix})`;
-    if (s.includes('ICRA')) return `IEEE International Conference on Robotics and Automation (ICRA${yearSuffix})`;
-    if (s.includes('AAAI')) return `AAAI Conference on Artificial Intelligence (AAAI${yearSuffix})`;
-    if (s.includes('GLOBECOM')) return `IEEE Global Communications Conference (GLOBECOM${yearSuffix})`;
-    if (s.includes('INFOCOM')) return `IEEE International Conference on Computer Communications (INFOCOM${yearSuffix})`;
-    if (s.includes('MOBICOM')) return `Annual International Conference on Mobile Computing and Networking (MobiCom${yearSuffix})`;
-    
-    if (s.toLowerCase().includes('arxiv')) return 'arXiv preprint';
-    
+    if (s.toLowerCase().includes("arxiv")) return "arXiv preprint";
+
+    // Journals (no year suffix)
+    if (s.includes("TSE") || s.includes("IEEE Transactions on Software Engineering"))
+        return "IEEE Transactions on Software Engineering";
+    if (s.includes("TOSEM") || s.includes("ACM Transactions on Software Engineering and Methodology"))
+        return "ACM Transactions on Software Engineering and Methodology";
+    if (s.includes("TR") || s.includes("Transactions on Reliability") || s.includes("IEEE Transactions on Reliability"))
+        return "IEEE Transactions on Reliability";
+    if (s.includes("TST") || s.includes("Tsinghua Science and Technology"))
+        return "Tsinghua Science and Technology";
+    if (s.includes("SCP") || s.includes("Science of Computer Programming"))
+        return "Science of Computer Programming";
+    if (s.includes("JSS") || s.includes("Journal of Systems and Software"))
+        return "Journal of Systems and Software";
+    if (s.includes("EAAI") || s.includes("Engineering Applications of Artificial Intelligence"))
+        return "Engineering Applications of Artificial Intelligence";
+    if (s.includes("Applied Soft Computing"))
+        return "Applied Soft Computing";
+
+    // Conferences (with year suffix)
+    if (s.includes("ICSE") || s.includes("International Conference on Software Engineering"))
+        return `International Conference on Software Engineering (ICSE${y2})`;
+    if (s.includes("ISSTA") || s.includes("Software Testing and Analysis"))
+        return `International Symposium on Software Testing and Analysis (ISSTA${y2})`;
+    if (s.includes("ASE") || s.includes("Automated Software Engineering"))
+        return `International Conference on Automated Software Engineering (ASE${y2})`;
+    if (s.includes("ICST") || s.includes("Software Testing, Validation and Verification"))
+        return `International Conference on Software Testing, Validation and Verification (ICST${y2})`;
+    if (s.includes("SAC") || s.includes("Symposium on Applied Computing"))
+        return `ACM Symposium on Applied Computing (SAC${y2})`;
+    if (s.includes("DSA") || s.includes("Dependable Systems and Their Applications"))
+        return `International Conference on Dependable Systems and Their Applications (DSA${y2})`;
+
     return s;
 }
 
 function getCCFRank(fullName, originalVenue) {
-    const v = (fullName + ' ' + originalVenue).toLowerCase();
-    
-    // CCF-A
-    if (v.includes('tdsc') || v.includes('dependable and secure') || 
-        v.includes('tmc') || v.includes('mobile computing') || 
-        v.includes('aaai') || v.includes('neurips') || 
-        v.includes('cvpr') || v.includes('iccv') || 
-        v.includes('infocom') || v.includes('jsac')) {
-        return 'A';
+    const v = ((fullName || "") + " " + (originalVenue || "")).toLowerCase();
+
+    // --- CCF-A (SE/AI) commonly used ---
+    if (
+        v.includes("transactions on software engineering") || v.includes("tse") ||
+        v.includes("transactions on software engineering and methodology") || v.includes("tosem") ||
+        v.includes("knowledge and data engineering") || v.includes("tkde")
+    ) {
+        return "A";
     }
-    
-    // CCF-B
-    if (v.includes('icra')) {
-        return 'B';
+
+    // --- CCF-B (SE/testing commonly) ---
+    // NOTE: SAC/ICST/ASE/ISSTA/ICSE 的分级在不同表/年份可能有差异；
+    // 这里给一个“保守常用”的默认：ICSE/ISSTA/ASE/ICST/SAC 归 B（你不确定可返回 null）
+    if (
+        v.includes("icse") ||
+        v.includes("issta") ||
+        v.includes("automated software engineering") || v.includes("ase") ||
+        v.includes("software testing, validation and verification") || v.includes("icst") ||
+        v.includes("symposium on applied computing") || v.includes("sac")
+    ) {
+        return "B";
     }
-    
-    // CCF-C
-    if (v.includes('globecom')) {
-        return 'C';
+
+    // --- CCF-C (示例：TR 期刊通常不在 CCF SE 列表里；DSA 多为 EI/一般会议) ---
+    // 如果你想把 TR 标为 C（有些人会这么写），取消注释下面两行：
+    if (
+        v.includes("transactions on reliability") || v.includes("tr") ||
+        v.includes("software testing, validation and verification") || v.includes("icst")
+    ) {
+        return "C";
     }
-    
+
     return null;
 }
 
