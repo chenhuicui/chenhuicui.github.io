@@ -1,25 +1,30 @@
-@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600;700&family=Kalam:wght@300;400;700&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600;700&family=Kalam:wght@300;400;700&display=swap');*/
+
+:root{
+    --font-main: "Trebuchet MS", Trebuchet, system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+}
 
 /* Base Styles */
 body {
-    font-family: 'Inter', sans-serif;
-    color: #0f172a; /* slate-900 */
-    background-color: #f8fafc; /* slate-50 */
+    font-family: var(--font-main);
+    color: #0f172a;
+    background-color: #f8fafc;
     line-height: 1.6;
 }
 
 /* Typography Overrides */
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Crimson Text', serif;
+    font-family: var(--font-main);
 }
 
 .font-serif {
-    font-family: 'Crimson Text', serif;
+    font-family: var(--font-main);
 }
 
 .font-sans {
-    font-family: 'Inter', sans-serif;
+    font-family: var(--font-main);
 }
+
 
 /* Glassmorphism Navigation */
 .glass {
@@ -157,7 +162,7 @@ details summary {
 }
 
 .pub-year-header {
-    font-family: 'Inter', sans-serif; /* Wider than Crimson Text */
+    font-family: var(--font-main);
     font-size: 1.35rem; /* Slightly larger */
     font-weight: 700;
     font-style: italic;
@@ -335,7 +340,7 @@ details summary {
 }
 
 .news-date {
-    font-family: 'Kalam', cursive; /* Cleaner, wider handwriting font */
+    font-family: var(--font-main);
     font-weight: 400; 
     font-size: 0.9rem; 
     color: #64748b;
@@ -343,7 +348,7 @@ details summary {
 }
 
 .news-content {
-    font-family: 'Kalam', cursive; /* Cleaner, wider handwriting font */
+    font-family: var(--font-main);
     font-size: 0.95rem; 
     color: #334155;
     line-height: 1.5;
@@ -355,7 +360,7 @@ details summary {
 
 /* Formal Text */
 .formal-font {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: var(--font-main);
     font-size: 1.05rem;
     line-height: 1.6;
 }
@@ -378,11 +383,11 @@ details summary {
     font-weight: 600;
     color: #1e293b;
     margin-bottom: 0.35rem;
-    font-family: 'Inter', sans-serif;
+    font-family: var(--font-main);
 }
 
 .service-items {
-    font-family: 'Inter', sans-serif;
+    font-family: var(--font-main);
     font-size: 0.9rem; /* Match education text size (approx) */
     color: #475569;
     line-height: 1.5;
@@ -398,7 +403,7 @@ details summary {
 }
 
 .honor-year {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: var(--font-main);
     font-weight: 700;
     font-size: 0.9rem;
     color: #d4a562; /* accent */
