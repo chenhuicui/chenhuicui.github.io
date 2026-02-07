@@ -317,7 +317,7 @@ function loadPublications() {
                     line3.appendChild(venueNameSpan);
 
                     // 3. CCF Rank
-                    const ccfRank = getCCFRank(fullVenueName, pub.venue);
+                    const ccfRank = getCCFRank(fullVenueName);
                     if (ccfRank) {
                         const rankSpan = document.createElement('span');
                         rankSpan.className = `ccf-rank ccf-${ccfRank.toLowerCase()}`;
@@ -430,27 +430,27 @@ function getVenueFullName(venueStr, year) {
     return s;
 }
 
-function getCCFRank(fullName, originalVenue) {
-    const v = ((fullName || "") + " " + (originalVenue || "")).toLowerCase();
+function getCCFRank(fullName) {
+    const v = (fullName || "");
 
     if (
-        v.includes("transactions on software engineering") || v.includes("tse") ||
-        v.includes("transactions on software engineering and methodology") || v.includes("tosem")
+        v.includes("IEEE Transactions on Software Engineering") ||
+        v.includes("ACM Transactions on Software Engineering and Methodology")
     ) {
         return "A";
     }
 
     if (
-        v.includes("Science of Computer Programming".toLowerCase()) || v.includes("scp")
+        v.includes("Science of Computer Programming")
     ) {
         return "B";
     }
 
     // --- CCF-C (示例：TR 期刊通常不在 CCF SE 列表里；DSA 多为 EI/一般会议) ---
     if (
-        v.includes("transactions on reliability") || v.includes("tr") ||
-        v.includes("software testing, validation and verification") || v.includes("icst")||
-        v.includes("Engineering Applications of Artificial Intelligence".toLowerCase()) || v.includes("eaai")
+        v.includes("IEEE Transactions on Reliability") ||
+        v.includes("International Conference on Software Testing, Validation and Verification") ||
+        v.includes("Engineering Applications of Artificial Intelligence")
     ) {
         return "C";
     }
