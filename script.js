@@ -450,7 +450,6 @@ function getCCFRank(fullName, originalVenue) {
         v.includes("icse") ||
         v.includes("issta") ||
         v.includes("automated software engineering") || v.includes("ase") ||
-        v.includes("software testing, validation and verification") || v.includes("icst") ||
         v.includes("symposium on applied computing") || v.includes("sac")
     ) {
         return "B";
