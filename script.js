@@ -410,7 +410,7 @@ function getVenueFullName(venueStr, year) {
         return "Journal of Systems and Software";
     if (s.includes("EAAI") || s.includes("Engineering Applications of Artificial Intelligence"))
         return "Engineering Applications of Artificial Intelligence";
-    if (s.includes("Applied Soft Computing"))
+    if (s.includes("ASC") || s.includes("Applied Soft Computing"))
         return "Applied Soft Computing";
 
     // Conferences (with year suffix)
@@ -433,7 +433,6 @@ function getVenueFullName(venueStr, year) {
 function getCCFRank(fullName, originalVenue) {
     const v = ((fullName || "") + " " + (originalVenue || "")).toLowerCase();
 
-    // --- CCF-A (SE/AI) commonly used ---
     if (
         v.includes("transactions on software engineering") || v.includes("tse") ||
         v.includes("transactions on software engineering and methodology") || v.includes("tosem")
@@ -441,9 +440,6 @@ function getCCFRank(fullName, originalVenue) {
         return "A";
     }
 
-    // --- CCF-B (SE/testing commonly) ---
-    // NOTE: SAC/ICST/ASE/ISSTA/ICSE 的分级在不同表/年份可能有差异；
-    // 这里给一个“保守常用”的默认：ICSE/ISSTA/ASE/ICST/SAC 归 B（你不确定可返回 null）
     if (
         v.includes("Science of Computer Programming".toLowerCase()) || v.includes("scp")
     ) {
@@ -451,7 +447,6 @@ function getCCFRank(fullName, originalVenue) {
     }
 
     // --- CCF-C (示例：TR 期刊通常不在 CCF SE 列表里；DSA 多为 EI/一般会议) ---
-    // 如果你想把 TR 标为 C（有些人会这么写），取消注释下面两行：
     if (
         v.includes("transactions on reliability") || v.includes("tr") ||
         v.includes("software testing, validation and verification") || v.includes("icst")||
