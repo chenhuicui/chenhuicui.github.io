@@ -1,14 +1,37 @@
 [
   {
-    "date": "2025-01-01",
-    "content": "Welcome to my new academic homepage! This template is available on GitHub.",
-    "links": [
-        { "text": "GitHub", "url": "https://github.com/yihangtao/AcaNova-X" }
-    ]
+    "date": "2025-12-22",
+    "content": "Our paper \"A Novel Vision-based Approach to Test Sequence Generation for Mobile GUI Testing\" has been accepted by IEEE Transactions on Reliability.",
+    "links": []
   },
   {
-     "date": "2024-12-15",
-     "content": "One paper titled 'A Novel Approach to AI' was accepted to CVPR 2025!",
-     "links": []
+    "date": "2025-09-30",
+    "content": "Our TSE paper \"Toward Cost-effective Adaptive Random Testing: An Approximate Nearest Neighbor Approach\" has been accepted by the Journal-First Track of the 40th IEEE/ACM International Conference on Automated Software Engineering (ASE 2025).",
+    "links": []
+  },
+  {
+    "date": "2025-09-30",
+    "content": "Our TOSEM paper \"Large Language Models for Automated Web-Form-Test Generation: An Empirical Study\" has been accepted by the Journal-First Track of the 40th IEEE/ACM International Conference on Automated Software Engineering (ASE 2025).",
+    "links": []
+  },
+  {
+    "date": "2025-09-05",
+    "content": "Our paper \"Adaptive Random Testing of Deep Learning Systems Using Image Hashing\" has been accepted by IEEE Transactions on Reliability.",
+    "links": []
+  },
+  {
+    "date": "2025-08-25",
+    "content": "Our paper \"Ribonucleic-Acid Protein Interaction Prediction Based on Deep Learning: A Comprehensive Survey\" has been accepted by Applied Soft Computing.",
+    "links": []
+  },
+  {
+    "date": "2025-05-06",
+    "content": "Our paper \"Large Language Models for Automated Web-Form-Test Generation: An Empirical Study\" has been accepted by ACM Transactions on Software Engineering and Methodology (TOSEM).",
+    "links": []
+  },
+  {
+    "date": "2025-02-07",
+    "content": "Our paper \"Applying Lexicographical Ordering to Software Product Line Testing\" has been accepted by IEEE Transactions on Reliability.",
+    "links": []
   }
 ]
