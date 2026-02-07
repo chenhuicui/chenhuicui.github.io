@@ -1,26 +1,168 @@
 [
   {
-    "title": "AcaNova-X: A Modern and Elegant Academic Website Template",
-    "authors": "<strong>Your Name</strong>, Collaborator A, Collaborator B",
-    "venue": "CVPR 2025",
-    "year": "2025",
-    "highlight": "Oral",
-    "thumbnail": "assets/publications/placeholder/paper-thumb.png",
+    "title": "Toward Cost-effective Adaptive Random Testing: An Approximate Nearest Neighbor Approach",
+    "authors": "Rubing Huang, <strong>Chenhui Cui</strong>, Junlong Lian, Dave Towey, Weifeng Sun, and Haibo Chen",
+    "venue": "IEEE Transactions on Software Engineering (TSE)",
+    "year": "2024",
+    "highlight": "JCR-Q1 · CCF-A",
+    "thumbnail": "assets/publications/lsh-art.png",
     "tags": [
-      { "text": "Paper", "link": "#" },
-      { "text": "Code", "link": "#" },
-      { "text": "Project Page", "link": "#" }
+      { "text": "Paper", "link": "https://ieeexplore.ieee.org/document/10476628/" }
     ]
   },
   {
-    "title": "Another Great Research Work on Machine Learning",
-    "authors": "Collaborator A, <strong>Your Name</strong>, Collaborator B",
-    "venue": "NeurIPS 2024",
-    "year": "2024",
-    "highlight": "Spotlight",
+    "title": "A Novel Vision-based Approach to Test Sequence Generation for Mobile GUI Testing",
+    "authors": "<strong>Chenhui Cui</strong>, Yinming Huang, Rubing Huang, Ling Zhou, Rongcun Wang, and Tao Li",
+    "venue": "IEEE Transactions on Reliability (TR)",
+    "year": "2025",
+    "highlight": "JCR-Q1 · CCF-C",
+    "thumbnail": "assets/publications/vision.png",
+    "tags": [
+      { "text": "Paper", "link": "https://ieeexplore.ieee.org/document/11342316/" }
+    ]
+  },
+  {
+    "title": "VPP-ART: An Efficient Implementation of Fixed-Size-Candidate-Set Adaptive Random Testing Using Vantage Point Partitioning",
+    "authors": "Rubing Huang, <strong>Chenhui Cui</strong>, Dave Towey, Weifeng Sun, and Junlong Lian",
+    "venue": "IEEE Transactions on Reliability (TR)",
+    "year": "2023",
+    "highlight": "JCR-Q1 · CCF-C",
+    "thumbnail": "assets/publications/vpp-art.png",
+    "tags": [
+      { "text": "Paper", "link": "https://ieeexplore.ieee.org/document/9968162/" }
+    ]
+  },
+  {
+    "title": "Prioritization of Abstract Test Cases by Weighting Covered Value Combinations",
+    "authors": "<strong>Chenhui Cui</strong>, Tao Li, Rubing Huang, and Dave Towey",
+    "venue": "Tsinghua Science and Technology (TST)",
+    "year": "2025",
+    "highlight": "JCR-Q2",
     "thumbnail": "",
     "tags": [
       { "text": "Paper", "link": "#" }
+    ]
+  },
+  {
+    "title": "Output Type Guided Random Test Case Generation for String Validation Routines",
+    "authors": "<strong>Chenhui Cui</strong>, Rubing Huang, Jinfu Chen, and Yunan Zhou",
+    "venue": "Tsinghua Science and Technology (TST)",
+    "year": "2025",
+    "highlight": "JCR-Q2",
+    "thumbnail": "assets/publications/string.png",
+    "tags": [
+      { "text": "Paper", "link": "https://ieeexplore.ieee.org/document/11072066" }
+    ]
+  },
+  {
+    "title": "Poster: Is Euclidean Distance the Best Distance Measurement for Adaptive Random Testing?",
+    "authors": "Rubing Huang, <strong>Chenhui Cui</strong>, Weifeng Sun, and Dave Towey",
+    "venue": "ICST 2020 (Poster)",
+    "year": "2020",
+    "highlight": "CCF-C",
+    "thumbnail": "",
+    "tags": [
+      { "text": "Paper", "link": "https://ieeexplore.ieee.org/document/9159079" }
+    ]
+  },
+  {
+    "title": "Large Language Models for Automated Web-Form-Test Generation: An Empirical Study",
+    "authors": "Tao Li, <strong>Chenhui Cui</strong>, Rubing Huang, Dave Towey, and Lei Ma",
+    "venue": "ACM Transactions on Software Engineering and Methodology (TOSEM)",
+    "year": "2025",
+    "highlight": "JCR-Q1 · CCF-A",
+    "thumbnail": "assets/publications/webform-tosem.png",
+    "tags": [
+      { "text": "Paper", "link": "https://dl.acm.org/doi/10.1145/3735553" }
+    ]
+  },
+  {
+    "title": "Applying Lexicographical Ordering to Software Product Line Testing",
+    "authors": "Tao Li, <strong>Chenhui Cui</strong>, Yinyin Xu, and Rubing Huang",
+    "venue": "IEEE Transactions on Reliability (TR)",
+    "year": "2025",
+    "highlight": "JCR-Q1 · CCF-C",
+    "thumbnail": "assets/publications/lotcp.png",
+    "tags": [
+      { "text": "Paper", "link": "https://ieeexplore.ieee.org/document/10898156" }
+    ]
+  },
+  {
+    "title": "Adaptive Random Testing of Deep Learning Systems Using Image Hashing",
+    "authors": "Linwei Yi, <strong>Chenhui Cui</strong>, Rubing Huang, Dave Towey, and Rongcun Wang",
+    "venue": "IEEE Transactions on Reliability (TR)",
+    "year": "2025",
+    "highlight": "JCR-Q1 · CCF-C",
+    "thumbnail": "assets/publications/img-hash.png",
+    "tags": [
+      { "text": "Paper", "link": "https://ieeexplore.ieee.org/document/11173952" }
+    ]
+  },
+
+  {
+    "title": "Requirements-Based Test Generation: A Comprehensive Survey",
+    "authors": "Zhenzhen Yang, Rubing Huang, <strong>Chenhui Cui</strong>, Nan Niu, and Dave Towey",
+    "venue": "ACM Transactions on Software Engineering and Methodology (TOSEM)",
+    "year": "2025",
+    "highlight": "JCR-Q1 · CCF-A",
+    "thumbnail": "assets/publications/requirement-survey.png",
+    "tags": [
+      { "text": "Paper", "link": "https://dl.acm.org/doi/10.1145/3771727" }
+    ]
+  },
+  {
+    "title": "Short-Term Electricity-Load Forecasting by Deep Learning: A Comprehensive Survey",
+    "authors": "Qi Dong, Rubing Huang, <strong>Chenhui Cui</strong>, Dave Towey, Ling Zhou, Jinyu Tian, and Jianzhou Wang",
+    "venue": "Engineering Applications of Artificial Intelligence (EAAI)",
+    "year": "2025",
+    "highlight": "JCR-Q1",
+    "thumbnail": "assets/publications/load-survey.png",
+    "tags": [
+      { "text": "Paper", "link": "https://www.sciencedirect.com/science/article/pii/S0952197625009807" }
+    ]
+  },
+  {
+    "title": "Ribonucleic-Acid Protein Interaction Prediction Based on Deep Learning: A Comprehensive Survey",
+    "authors": "Danyu Li, Rubing Huang, <strong>Chenhui Cui</strong>, Dave Towey, Ling Zhou, Jinyu Tian, and Bin Zou",
+    "venue": "Applied Soft Computing",
+    "year": "2025",
+    "highlight": "JCR-Q1",
+    "thumbnail": "assets/publications/rna-survey.png",
+    "tags": [
+      { "text": "Paper", "link": "https://www.sciencedirect.com/science/article/pii/S1568494625011081"},
+    ]
+  },
+  {
+    "title": "A Nearest-Neighbor Divide-and-Conquer Approach for Adaptive Random Testing",
+    "authors": "Rubing Huang, Weifeng Sun, Haibo Chen, <strong>Chenhui Cui</strong>, and Ning Yang",
+    "venue": "Science of Computer Programming",
+    "year": "2022",
+    "highlight": "JCR-Q1 · CCF-B",
+    "thumbnail": "",
+    "tags": [
+      { "text": "Paper", "link": "https://www.sciencedirect.com/science/article/pii/S0167642321001362" }
+    ]
+  },
+  {
+    "title": "KD-RRT: Restricted Random Testing Based on K-Dimensional Tree",
+    "authors": "Junlong Lian, <strong>Chenhui Cui</strong>, Weifeng Sun, Yiming Wu, and Rubing Huang",
+    "venue": "DSA 2021",
+    "year": "2021",
+    "highlight": "EI",
+    "thumbnail": "",
+    "tags": [
+      { "text": "Paper", "link": "https://ieeexplore.ieee.org/document/9622963" }
+    ]
+  },
+  {
+    "title": "Which Type of Exclusion Region Is Better for Restricted Random Testing? An Empirical Study",
+    "authors": "Weifeng Sun, Rubing Huang, <strong>Chenhui Cui</strong>, Haibo Chen, and Weijie Liu",
+    "venue": "SAC 2021",
+    "year": "2021",
+    "highlight": "EI",
+    "thumbnail": "",
+    "tags": [
+      { "text": "Paper", "link": "https://www.sciencedirect.com/science/article/pii/S030440762030138X" }
     ]
   }
 ]
