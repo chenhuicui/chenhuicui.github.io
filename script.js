@@ -366,7 +366,7 @@ function getVenueShortName(venueStr, year) {
         { key: ["Science of Computer Programming", "SCP"], short: "SCP" },
         { key: ["Journal of Systems and Software", "JSS"], short: "JSS" },
         { key: ["Engineering Applications of Artificial Intelligence", "EAAI"], short: "EAAI" },
-        { key: ["Applied Soft Computing"], short: "ASC" }, // 常见缩写也叫 ASOC，可自行改
+        { key: ["Applied Soft Computing", "ASC"], short: "ASC" },
 
         // Conferences
         { key: ["International Conference on Software Engineering", "ICSE"], short: "ICSE", conf: true },
