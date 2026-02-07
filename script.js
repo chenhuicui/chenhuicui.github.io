@@ -437,8 +437,7 @@ function getCCFRank(fullName, originalVenue) {
     // --- CCF-A (SE/AI) commonly used ---
     if (
         v.includes("transactions on software engineering") || v.includes("tse") ||
-        v.includes("transactions on software engineering and methodology") || v.includes("tosem") ||
-        v.includes("knowledge and data engineering") || v.includes("tkde")
+        v.includes("transactions on software engineering and methodology") || v.includes("tosem") 
     ) {
         return "A";
     }
@@ -447,10 +446,7 @@ function getCCFRank(fullName, originalVenue) {
     // NOTE: SAC/ICST/ASE/ISSTA/ICSE 的分级在不同表/年份可能有差异；
     // 这里给一个“保守常用”的默认：ICSE/ISSTA/ASE/ICST/SAC 归 B（你不确定可返回 null）
     if (
-        v.includes("icse") ||
-        v.includes("issta") ||
-        v.includes("automated software engineering") || v.includes("ase") ||
-        v.includes("symposium on applied computing") || v.includes("sac")
+        v.includes("automated software engineering") || v.includes("ase")
     ) {
         return "B";
     }
