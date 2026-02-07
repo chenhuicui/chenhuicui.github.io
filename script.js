@@ -361,7 +361,7 @@ function getVenueShortName(venueStr, year) {
         // Journals
         { key: ["IEEE Transactions on Software Engineering", "TSE"], short: "TSE" },
         { key: ["ACM Transactions on Software Engineering and Methodology", "TOSEM"], short: "TOSEM" },
-        { key: ["IEEE Transactions on Reliability", "Transactions on Reliability", "TR"], short: "TR" },
+        { key: ["IEEE Transactions on Reliability", "TR"], short: "TR" },
         { key: ["Tsinghua Science and Technology", "TST"], short: "TST" },
         { key: ["Science of Computer Programming", "SCP"], short: "SCP" },
         { key: ["Journal of Systems and Software", "JSS"], short: "JSS" },
@@ -400,7 +400,7 @@ function getVenueFullName(venueStr, year) {
         return "IEEE Transactions on Software Engineering";
     if (s.includes("TOSEM") || s.includes("ACM Transactions on Software Engineering and Methodology"))
         return "ACM Transactions on Software Engineering and Methodology";
-    if (s.includes("TR") || s.includes("Transactions on Reliability") || s.includes("IEEE Transactions on Reliability"))
+    if (s.includes("TR") || s.includes("IEEE Transactions on Reliability"))
         return "IEEE Transactions on Reliability";
     if (s.includes("TST") || s.includes("Tsinghua Science and Technology"))
         return "Tsinghua Science and Technology";
