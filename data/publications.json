@@ -1,5 +1,16 @@
 [
   {
+    "title": "Large Language Models for Automated Web-Form-Test Generation: An Empirical Study — RCR Report",
+    "authors": "Tao Li, <strong>Chenhui Cui</strong>, Rubing Huang, Dave Towey, and Lei Ma",
+    "venue": "TOSEM 2026",
+    "year": "2026",
+    "highlight": "RCR Report",
+    "thumbnail": "assets/publications/webform-tosem.png",
+    "tags": [
+      { "text": "Paper", "link": "" }
+    ]
+  },
+  {
     "title": "Toward Cost-effective Adaptive Random Testing: An Approximate Nearest Neighbor Approach",
     "authors": "Rubing Huang, <strong>Chenhui Cui</strong>, Junlong Lian, Dave Towey, Weifeng Sun, and Haibo Chen",
     "venue": "TSE 2024",
