@@ -88,6 +88,21 @@ section {
     z-index: -1;
 }
 
+
+/* Section Title Spacing */
+.section-header{
+    margin-top: 2.5rem;    
+    margin-bottom: 1.75rem; 
+}
+
+.content-column > section:first-child .section-header{
+    margin-top: 0;
+}
+
+.section-header h2{
+    margin: 0;
+}
+
 /* Main Layout Grid */
 .grid-layout {
     display: grid;
