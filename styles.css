@@ -95,7 +95,8 @@ section {
     margin-bottom: 1.75rem; 
 }
 
-.content-column > section:first-child .section-header{
+.content-column > section:first-child .section-header,
+.content-column > section:nth-child(2) .section-header{
     margin-top: 0;
 }
 
