@@ -7,7 +7,7 @@
     "highlight": "RCR Report",
     "thumbnail": "assets/publications/webform-tosem.png",
     "tags": [
-      { "text": "Paper", "link": "https://dl.acm.org/doi/10.1145/3797275/" }
+      { "text": "Paper", "link": "https://dl.acm.org/doi/10.1145/3797275" }
     ]
   },
   {
@@ -18,7 +18,7 @@
     "highlight": "Oral in ASE'25",
     "thumbnail": "assets/publications/lsh-art.png",
     "tags": [
-      { "text": "Paper", "link": "https://ieeexplore.ieee.org/document/10476628/" }
+      { "text": "Paper", "link": "https://ieeexplore.ieee.org/document/10476628" }
     ]
   },
   {
@@ -29,7 +29,7 @@
     "highlight": "",
     "thumbnail": "assets/publications/vision.png",
     "tags": [
-      { "text": "Paper", "link": "https://ieeexplore.ieee.org/document/11342316/" }
+      { "text": "Paper", "link": "https://ieeexplore.ieee.org/document/11342316" }
     ]
   },
   {
@@ -40,7 +40,7 @@
     "highlight": "",
     "thumbnail": "assets/publications/vpp-art.png",
     "tags": [
-      { "text": "Paper", "link": "https://ieeexplore.ieee.org/document/9968162/" }
+      { "text": "Paper", "link": "https://ieeexplore.ieee.org/document/9968162" }
     ]
   },
   {
