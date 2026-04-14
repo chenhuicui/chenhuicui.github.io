@@ -1,5 +1,16 @@
 [
   {
+    "title": "LRASGen: LLM-based RESTful API Specification Generation",
+    "authors": "Sida Deng, Rubing Huang, Man Zhang, <strong>Chenhui Cui</strong>, Dave Towey, Rongcun Wang",
+    "venue": "TOSEM 2026",
+    "year": "2026",
+    "highlight": "",
+    "thumbnail": "assets/publications/lrasgen-tosem.png",
+    "tags": [
+      { "text": "Paper", "link": "" }
+    ]
+  },
+  {
     "title": "Large Language Models for Automated Web-Form-Test Generation: An Empirical Study — RCR Report",
     "authors": "Tao Li, <strong>Chenhui Cui</strong>, Rubing Huang, Dave Towey, and Lei Ma",
     "venue": "TOSEM 2026",
