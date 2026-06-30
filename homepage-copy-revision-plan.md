@@ -33,7 +33,7 @@
 建议修改：
 
 ```html
-<p class="text-lg text-accent font-medium mb-1">Postdoctoral Researcher</p>
+<p class="text-lg text-accent font-medium mb-1">Postdoc Research Fellow</p>
 <p class="text-neutral-600 mb-2">University of Alberta</p>
 ```
 
@@ -64,7 +64,7 @@
 
 ```html
 <p class="mb-4">
-    I am a postdoctoral researcher at the University of Alberta, working with Prof. Lei Ma.
+    I am a postdoc research fellow at the University of Alberta, working with Prof. Lei Ma.
     I received my Ph.D. in Computer Technology and Its Applications from Macau University of Science and Technology (MUST) on June 22, 2026, advised by Prof. Rubing Huang.
     I received my M.S. degree (2022) and B.S. degree (2019) from Jiangsu University.
 </p>
@@ -127,7 +127,7 @@ Ph.D. in Computer Technology and Its Applications. Advisor: Prof. Rubing Huang.
 ### Postdoc
 
 ```html
-<h3 class="font-semibold text-primary">Postdoctoral Researcher</h3>
+<h3 class="font-semibold text-primary">Postdoc Research Fellow</h3>
 <p class="text-sm text-accent font-medium">University of Alberta · Edmonton, Canada</p>
 <p class="text-sm text-neutral-500">Jun. 2026 - Present</p>
 <p class="text-sm text-neutral-600 mt-1">
@@ -203,7 +203,7 @@ My previous work in software testing, adaptive random testing, and mobile/web GU
 ```json
 {
   "date": "2026-06",
-  "content": "I started as a postdoctoral researcher at the University of Alberta, working with Prof. Lei Ma."
+  "content": "I started as a postdoc research fellow at the University of Alberta, working with Prof. Lei Ma."
 }
 ```
 
