@@ -1,5 +1,15 @@
 [
   {
+    "date": "2026-06-22",
+    "content": "I received my Ph.D. in Computer Technology and Its Applications from Macau University of Science and Technology.",
+    "links": []
+  },
+  {
+    "date": "2026-06",
+    "content": "I started as a postdoc research fellow at the University of Alberta, working with Prof. Lei Ma.",
+    "links": []
+  },
+  {
     "date": "2026-04-14",
     "content": "Our paper \"LRASGen: LLM-based RESTful API Specification Generation\" has been accepted by ACM Transactions on Software Engineering and Methodology (TOSEM).",
     "links": []
