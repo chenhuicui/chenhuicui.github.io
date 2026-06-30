@@ -6,9 +6,12 @@
 
 - Ph.D. 状态：已毕业，不再写 `Ph.D. Candidate`。
 - 博士毕业日期：2026-06-22。
+- 博士入学时间：2023-09。
 - 博后经历：University of Alberta，2026.06 至今，指导老师建议英文写作 `Prof. Lei Ma`。
 - 产业经历：2026.07 起将加入同花顺，方向面向 agent。公司英文名建议暂写 `Hithink RoyalFlush Information Network Co., Ltd. (Tonghuashun)`，但最终上线前最好确认入职合同或公司英文抬头。
 - 研究方向：从 GUI testing 主叙事转向 AI&SE。GUI testing 可以保留为 previous work / research foundation，不再放在当前研究兴趣的核心位置。
+- 邮箱先统一替换为 `chenhuicui97@gmail.com`。
+- News 可以增加博士毕业和博后开始两条；同花顺入职新闻暂不加。
 
 ## 总体叙事
 
@@ -89,11 +92,11 @@
 <p>
     <strong><i class="fas fa-lightbulb text-accent mr-2"></i>I am open to research collaboration.</strong>
     If you are interested in AI for Software Engineering, coding agents, agent evaluation, or software testing, feel free to reach out:
-    <a href="mailto:3230002105@student.must.edu.mo" class="link-highlight">3230002105@student.must.edu.mo</a>.
+    <a href="mailto:chenhuicui97@gmail.com" class="link-highlight">chenhuicui97@gmail.com</a>.
 </p>
 ```
 
-邮箱暂时可以保留 MUST 学生邮箱；如果已有 UAlberta 或工作邮箱，建议后续统一替换左侧卡片和 Contact。
+邮箱先统一替换为 `chenhuicui97@gmail.com`，包括左侧个人卡片、About Me collaboration highlight 和 Contact。
 
 ## Education
 
@@ -102,7 +105,7 @@
 ```html
 <h3 class="font-semibold text-primary">Ph.D.</h3>
 <p class="text-sm text-accent font-medium">Macau University of Science and Technology (MUST)</p>
-<p class="text-sm text-neutral-500">2023 - Jun. 2026</p>
+<p class="text-sm text-neutral-500">Sept. 2023 - Jun. 2026</p>
 <p class="text-sm text-neutral-600 mt-1">
     Ph.D. in Computer Technology and Its Applications. Advisor: Prof. Rubing Huang.
     Degree completed on June 22, 2026.
@@ -186,9 +189,9 @@ My previous work in software testing, adaptive random testing, and mobile/web GU
 
 这样可以把 GUI testing 放到第二张卡的背景里，而不是让它继续主导页面。
 
-## News 可选更新
+## News
 
-如果希望主页更完整，可以在 `data/news.json` 增加如下新闻：
+可以在 `data/news.json` 增加博士毕业和博后开始两条新闻：
 
 ```json
 {
@@ -204,14 +207,7 @@ My previous work in software testing, adaptive random testing, and mobile/web GU
 }
 ```
 
-同花顺新闻建议等 2026.07 正式入职后再加：
-
-```json
-{
-  "date": "2026-07",
-  "content": "I joined Hithink RoyalFlush Information Network Co., Ltd. (Tonghuashun), working on agent-oriented software systems."
-}
-```
+同花顺入职新闻暂不加，等 2026.07 正式入职或 title/公司英文名确认后再更新。
 
 ## Contact
 
@@ -221,14 +217,19 @@ My previous work in software testing, adaptive random testing, and mobile/web GU
 University of Alberta<br>Edmonton, Alberta, Canada
 ```
 
-不建议现在编造 UAlberta 邮箱。邮箱继续保留现有地址，或等新邮箱确认后再替换。
+邮箱先统一替换为：
+
+```html
+chenhuicui97@gmail.com
+```
 
 ## 推荐实施顺序
 
 1. 先改 `Profile Card`、`About Me`、`Education`、`Work Experience`，这些是身份事实，优先级最高。
 2. 再改 `Research Interests` 和 `Research Thrust`，完成从 GUI testing 到 AI&SE/coding agents 的叙事迁移。
-3. 最后按需要更新 `data/news.json` 和 `Contact`。
-4. 同花顺条目的正式 title、城市、公司英文名建议入职材料确认后再定稿。
+3. 再统一替换邮箱为 `chenhuicui97@gmail.com`，并同步更新 `Contact`。
+4. 在 `data/news.json` 增加博士毕业和博后开始两条新闻。
+5. 同花顺条目的正式 title、城市、公司英文名建议入职材料确认后再定稿，News 里暂不加同花顺入职新闻。
 
 ## 外部命名确认
 
