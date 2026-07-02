@@ -6,9 +6,10 @@
     "year": "2026",
     "highlight": "",
     "thumbnail": "assets/publications/lrasgen-tosem.png",
-    "tags": [
-      { "text": "Paper", "link": "https://dl.acm.org/doi/10.1145/3810241" }
-    ]
+    "links": [
+      { "type": "paper", "label": "PDF", "url": "https://dl.acm.org/doi/10.1145/3810241" }
+    ],
+    "topics": ["llm", "web", "requirements"]
   },
   {
     "title": "Large Language Models for Automated Web-Form-Test Generation: An Empirical Study — RCR Report",
@@ -17,9 +18,10 @@
     "year": "2026",
     "highlight": "RCR Report",
     "thumbnail": "assets/publications/webform-tosem.png",
-    "tags": [
-      { "text": "Paper", "link": "https://dl.acm.org/doi/10.1145/3797275" }
-    ]
+    "links": [
+      { "type": "paper", "label": "PDF", "url": "https://dl.acm.org/doi/10.1145/3797275" }
+    ],
+    "topics": ["llm", "web", "gui"]
   },
   {
     "title": "Toward Cost-effective Adaptive Random Testing: An Approximate Nearest Neighbor Approach",
@@ -28,9 +30,10 @@
     "year": "2024",
     "highlight": "Oral in ASE'25",
     "thumbnail": "assets/publications/lsh-art.png",
-    "tags": [
-      { "text": "Paper", "link": "https://ieeexplore.ieee.org/document/10476628" }
-    ]
+    "links": [
+      { "type": "paper", "label": "PDF", "url": "https://ieeexplore.ieee.org/document/10476628" }
+    ],
+    "topics": ["art"]
   },
   {
     "title": "A Novel Vision-based Approach to Test Sequence Generation for Mobile GUI Testing",
@@ -39,9 +42,10 @@
     "year": "2026",
     "highlight": "",
     "thumbnail": "assets/publications/vision.png",
-    "tags": [
-      { "text": "Paper", "link": "https://ieeexplore.ieee.org/document/11342316" }
-    ]
+    "links": [
+      { "type": "paper", "label": "PDF", "url": "https://ieeexplore.ieee.org/document/11342316" }
+    ],
+    "topics": ["android", "gui"]
   },
   {
     "title": "VPP-ART: An Efficient Implementation of Fixed-Size-Candidate-Set Adaptive Random Testing Using Vantage Point Partitioning",
@@ -50,9 +54,10 @@
     "year": "2023",
     "highlight": "",
     "thumbnail": "assets/publications/vpp-art.png",
-    "tags": [
-      { "text": "Paper", "link": "https://ieeexplore.ieee.org/document/9968162" }
-    ]
+    "links": [
+      { "type": "paper", "label": "PDF", "url": "https://ieeexplore.ieee.org/document/9968162" }
+    ],
+    "topics": ["art"]
   },
   {
     "title": "Prioritization of Abstract Test Cases by Weighting Covered Value Combinations",
@@ -61,9 +66,10 @@
     "year": "2026",
     "highlight": "",
     "thumbnail": "",
-    "tags": [
-      { "text": "Paper", "link": "https://www.sciopen.com/article/10.26599/TST.2024.9010078" }
-    ]
+    "links": [
+      { "type": "paper", "label": "PDF", "url": "https://www.sciopen.com/article/10.26599/TST.2024.9010078" }
+    ],
+    "topics": ["tcp"]
   },
   {
     "title": "Output Type Guided Random Test Case Generation for String Validation Routines",
@@ -72,9 +78,10 @@
     "year": "2025",
     "highlight": "",
     "thumbnail": "assets/publications/string.png",
-    "tags": [
-      { "text": "Paper", "link": "https://ieeexplore.ieee.org/document/11072066" }
-    ]
+    "links": [
+      { "type": "paper", "label": "PDF", "url": "https://ieeexplore.ieee.org/document/11072066" }
+    ],
+    "topics": ["other"]
   },
   {
     "title": "Poster: Is Euclidean Distance the Best Distance Measurement for Adaptive Random Testing?",
@@ -83,9 +90,10 @@
     "year": "2020",
     "highlight": "Oral",
     "thumbnail": "",
-    "tags": [
-      { "text": "Paper", "link": "https://ieeexplore.ieee.org/document/9159079" }
-    ]
+    "links": [
+      { "type": "paper", "label": "PDF", "url": "https://ieeexplore.ieee.org/document/9159079" }
+    ],
+    "topics": ["art"]
   },
   {
     "title": "Large Language Models for Automated Web-Form-Test Generation: An Empirical Study",
@@ -94,9 +102,10 @@
     "year": "2025",
     "highlight": "Oral in ASE'25",
     "thumbnail": "assets/publications/webform-tosem.png",
-    "tags": [
-      { "text": "Paper", "link": "https://dl.acm.org/doi/10.1145/3735553" }
-    ]
+    "links": [
+      { "type": "paper", "label": "PDF", "url": "https://dl.acm.org/doi/10.1145/3735553" }
+    ],
+    "topics": ["llm", "web", "gui"]
   },
   {
     "title": "Applying Lexicographical Ordering to Software Product Line Testing",
@@ -105,9 +114,10 @@
     "year": "2025",
     "highlight": "",
     "thumbnail": "assets/publications/lotcp.png",
-    "tags": [
-      { "text": "Paper", "link": "https://ieeexplore.ieee.org/document/10898156" }
-    ]
+    "links": [
+      { "type": "paper", "label": "PDF", "url": "https://ieeexplore.ieee.org/document/10898156" }
+    ],
+    "topics": ["tcp", "spl"]
   },
   {
     "title": "Adaptive Random Testing of Deep Learning Systems Using Image Hashing",
@@ -116,9 +126,10 @@
     "year": "2025",
     "highlight": "",
     "thumbnail": "assets/publications/img-hash.png",
-    "tags": [
-      { "text": "Paper", "link": "https://ieeexplore.ieee.org/document/11173952" }
-    ]
+    "links": [
+      { "type": "paper", "label": "PDF", "url": "https://ieeexplore.ieee.org/document/11173952" }
+    ],
+    "topics": ["art", "dl-testing"]
   },
   {
     "title": "Requirements-Based Test Generation: A Comprehensive Survey",
@@ -127,9 +138,10 @@
     "year": "2025",
     "highlight": "",
     "thumbnail": "assets/publications/requirement-survey.png",
-    "tags": [
-      { "text": "Paper", "link": "https://dl.acm.org/doi/10.1145/3771727" }
-    ]
+    "links": [
+      { "type": "paper", "label": "PDF", "url": "https://dl.acm.org/doi/10.1145/3771727" }
+    ],
+    "topics": ["requirements", "survey"]
   },
   {
     "title": "Short-Term Electricity-Load Forecasting by Deep Learning: A Comprehensive Survey",
@@ -138,9 +150,10 @@
     "year": "2025",
     "highlight": "",
     "thumbnail": "assets/publications/load-survey.png",
-    "tags": [
-      { "text": "Paper", "link": "https://www.sciencedirect.com/science/article/pii/S0952197625009807" }
-    ]
+    "links": [
+      { "type": "paper", "label": "PDF", "url": "https://www.sciencedirect.com/science/article/pii/S0952197625009807" }
+    ],
+    "topics": ["survey", "other"]
   },
   {
     "title": "Ribonucleic-Acid Protein Interaction Prediction Based on Deep Learning: A Comprehensive Survey",
@@ -149,9 +162,10 @@
     "year": "2025",
     "highlight": "",
     "thumbnail": "assets/publications/rna-survey.png",
-    "tags": [
-      { "text": "Paper", "link": "https://www.sciencedirect.com/science/article/pii/S1568494625011081" }
-    ]
+    "links": [
+      { "type": "paper", "label": "PDF", "url": "https://www.sciencedirect.com/science/article/pii/S1568494625011081" }
+    ],
+    "topics": ["survey", "other"]
   },
   {
     "title": "A Nearest-Neighbor Divide-and-Conquer Approach for Adaptive Random Testing",
@@ -160,9 +174,10 @@
     "year": "2022",
     "highlight": "",
     "thumbnail": "",
-    "tags": [
-      { "text": "Paper", "link": "https://www.sciencedirect.com/science/article/pii/S0167642321001362" }
-    ]
+    "links": [
+      { "type": "paper", "label": "PDF", "url": "https://www.sciencedirect.com/science/article/pii/S0167642321001362" }
+    ],
+    "topics": ["art"]
   },
   {
     "title": "KD-RRT: Restricted Random Testing Based on K-Dimensional Tree",
@@ -171,9 +186,10 @@
     "year": "2021",
     "highlight": "Oral",
     "thumbnail": "",
-    "tags": [
-      { "text": "Paper", "link": "https://ieeexplore.ieee.org/document/9622963" }
-    ]
+    "links": [
+      { "type": "paper", "label": "PDF", "url": "https://ieeexplore.ieee.org/document/9622963" }
+    ],
+    "topics": ["art"]
   },
   {
     "title": "Which Type of Exclusion Region Is Better for Restricted Random Testing? An Empirical Study",
@@ -182,8 +198,9 @@
     "year": "2021",
     "highlight": "Oral",
     "thumbnail": "",
-    "tags": [
-      { "text": "Paper", "link": "https://www.sciencedirect.com/science/article/pii/S030440762030138X" }
-    ]
+    "links": [
+      { "type": "paper", "label": "PDF", "url": "https://www.sciencedirect.com/science/article/pii/S030440762030138X" }
+    ],
+    "topics": ["art"]
   }
 ]

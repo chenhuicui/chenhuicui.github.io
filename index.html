@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css?v=20260701g">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
@@ -31,7 +31,7 @@
         }
     </script>
 </head>
-<body class="bg-background text-foreground antialiased font-sans">
+<body class="tabbed-homepage bg-background text-foreground antialiased font-sans">
     <!-- Top Navigation -->
     <nav class="top-nav glass fixed top-0 left-0 right-0 z-50 transition-all duration-300">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -44,22 +44,19 @@
                 </div>
 
                 <!-- Desktop Navigation -->
-                <div class="hidden lg:block">
-                    <div class="ml-10 flex items-center space-x-8">
-                        <ul class="nav-links flex space-x-8">
-                            <li><a href="#homepage" class="nav-item">Homepage</a></li>
-                            <li><a href="#about" class="nav-item">About Me</a></li>
-                            <li><a href="#latest-news" class="nav-item">News</a></li>
-                            <li><a href="#publications" class="nav-item">Publications</a></li>
+                <div class="hidden md:block">
+                    <div class="ml-6 xl:ml-10 flex items-center">
+                        <ul class="nav-links flex space-x-5 xl:space-x-8">
+                            <li><a href="#homepage" class="nav-item site-tab-link active">Home</a></li>
+                            <li><a href="/pages/all-publications.html" class="nav-item">Publications</a></li>
 <!--                            <li><a href="#honors" class="nav-item">Honors</a></li>-->
-                            <li><a href="#services" class="nav-item">Service</a></li>
-                            <li><a href="#contact" class="nav-item">Contact</a></li>
+                            <li><a href="#services" class="nav-item site-tab-link">Service</a></li>
                         </ul>
                     </div>
                 </div>
 
                 <!-- Mobile Menu Button -->
-                <div class="lg:hidden flex items-center">
+                <div class="md:hidden flex items-center">
                     <button class="mobile-menu-btn p-2 rounded-md text-neutral-600 hover:text-primary">
                         <i class="fas fa-bars"></i>
                     </button>
@@ -67,16 +64,12 @@
             </div>
 
             <!-- Mobile Menu -->
-            <div class="mobile-menu hidden lg:hidden absolute top-16 left-0 w-full bg-white/95 backdrop-blur-md border-b border-neutral-200 shadow-lg" id="mobile-menu">
+            <div class="mobile-menu hidden md:hidden absolute top-16 left-0 w-full bg-white/95 backdrop-blur-md border-b border-neutral-200 shadow-lg" id="mobile-menu">
                 <ul class="flex flex-col py-4 px-4 space-y-4">
-                    <li><a href="#homepage" class="mobile-nav-item block text-neutral-600 hover:text-primary font-medium">Homepage</a></li>
-                    <li><a href="#about" class="mobile-nav-item block text-neutral-600 hover:text-primary font-medium">About Me</a></li>
-                    <li><a href="#educations" class="mobile-nav-item block text-neutral-600 hover:text-primary font-medium">Education</a></li>
-                    <li><a href="#latest-news" class="mobile-nav-item block text-neutral-600 hover:text-primary font-medium">News</a></li>
-                    <li><a href="#publications" class="mobile-nav-item block text-neutral-600 hover:text-primary font-medium">Publications</a></li>
+                    <li><a href="#homepage" class="mobile-nav-item site-tab-link block text-neutral-600 hover:text-primary font-medium">Home</a></li>
+                    <li><a href="/pages/all-publications.html" class="mobile-nav-item block text-neutral-600 hover:text-primary font-medium">Publications</a></li>
 <!--                    <li><a href="#honors" class="mobile-nav-item block text-neutral-600 hover:text-primary font-medium">Honors</a></li>-->
-                    <li><a href="#services" class="mobile-nav-item block text-neutral-600 hover:text-primary font-medium">Service</a></li>
-                    <li><a href="#contact" class="mobile-nav-item block text-neutral-600 hover:text-primary font-medium">Contact</a></li>
+                    <li><a href="#services" class="mobile-nav-item site-tab-link block text-neutral-600 hover:text-primary font-medium">Service</a></li>
                 </ul>
             </div>
         </div>
@@ -97,7 +90,7 @@
 
                         <!-- Name and Title -->
                         <div class="text-center mb-6">
-                            <h1 class="text-3xl font-serif font-bold text-primary mb-2">Chenhui Cui | 崔晨晖</h1>
+                            <h1 class="text-3xl font-serif font-bold text-primary mb-2">Chenhui Cui</h1>
                             <p class="text-lg text-accent font-medium mb-1">Postdoc Research Fellow</p>
                             <p class="text-neutral-600 mb-2">University of Alberta</p>
                         </div>
@@ -110,27 +103,111 @@
                             <a href="https://orcid.org/0009-0004-8746-316X" target="_blank" rel="noopener" class="social-btn" title="ORCID" aria-label="ORCID"><i class="fab fa-orcid"></i></a>
                         </div>
 
-                        <!-- Research Interests -->
-                         <div class="research-interests-card bg-neutral-100 rounded-xl p-5 mb-6">
+                        <div class="profile-panel-section profile-education-card bg-neutral-100 rounded-xl p-5 mb-6">
                             <h3 class="font-serif font-bold text-lg text-primary mb-4 pb-2 border-b border-neutral-200 flex items-center">
-                                <i class="fas fa-lightbulb text-accent mr-2 text-base"></i> Research Interests
+                                <i class="fas fa-graduation-cap text-accent mr-2 text-base"></i> Education
+                            </h3>
+                            <div class="profile-mini-timeline">
+                                <div class="profile-mini-item">
+                                    <div class="profile-mini-logo">
+                                        <img src="assets/logo_must.png" alt="Macau University of Science and Technology logo" loading="lazy">
+                                    </div>
+                                    <div>
+                                        <h4>Ph.D.</h4>
+                                        <p class="profile-mini-org">Macau University of Science and Technology</p>
+                                        <p class="profile-mini-date">Sept. 2023 – Jun. 2026</p>
+                                        <p class="profile-mini-desc">Computer Technology and Its Applications</p>
+                                    </div>
+                                </div>
+                                <div class="profile-mini-item">
+                                    <div class="profile-mini-logo">
+                                        <img src="assets/logo_jsu.png" alt="Jiangsu University logo" loading="lazy">
+                                    </div>
+                                    <div>
+                                        <h4>M.S.</h4>
+                                        <p class="profile-mini-org">Jiangsu University</p>
+                                        <p class="profile-mini-date">2019 – 2022</p>
+                                        <p class="profile-mini-desc">Computer Science and Technology</p>
+                                    </div>
+                                </div>
+                                <div class="profile-mini-item">
+                                    <div class="profile-mini-logo">
+                                        <img src="assets/logo_jsu.png" alt="Jiangsu University logo" loading="lazy">
+                                    </div>
+                                    <div>
+                                        <h4>B.S.</h4>
+                                        <p class="profile-mini-org">Jiangsu University</p>
+                                        <p class="profile-mini-date">2015 – 2019</p>
+                                        <p class="profile-mini-desc">Software Engineering</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="profile-panel-section profile-work-card bg-neutral-100 rounded-xl p-5 mb-6">
+                            <h3 class="font-serif font-bold text-lg text-primary mb-4 pb-2 border-b border-neutral-200 flex items-center">
+                                <i class="fas fa-briefcase text-accent mr-2 text-base"></i> Work Experience
+                            </h3>
+                            <div class="profile-mini-timeline">
+                                <div class="profile-mini-item">
+                                    <div class="profile-mini-logo">
+                                        <img src="assets/logo_ualberta.png" alt="University of Alberta emblem" loading="lazy">
+                                    </div>
+                                    <div>
+                                        <h4>Postdoc Research Fellow</h4>
+                                        <p class="profile-mini-org">University of Alberta</p>
+                                        <p class="profile-mini-date">Jun. 2026 – Present</p>
+                                        <p class="profile-mini-desc">AI for SE, coding agents, and agent-oriented software engineering.</p>
+                                    </div>
+                                </div>
+                                <div class="profile-mini-item">
+                                    <div class="profile-mini-logo profile-mini-logo-large">
+                                        <img src="assets/logo_tonghuashun.png" alt="Tonghuashun logo" loading="lazy">
+                                    </div>
+                                    <div>
+                                        <h4>Incoming Agent-Oriented R&amp;D Role</h4>
+                                        <p class="profile-mini-org">Tonghuashun</p>
+                                        <p class="profile-mini-date">Starting Jul. 2026</p>
+                                        <p class="profile-mini-desc">Agent-oriented software systems and applied agent engineering.</p>
+                                    </div>
+                                </div>
+                                <div class="profile-mini-item">
+                                    <div class="profile-mini-logo">
+                                        <img src="assets/icon_tx.png" alt="Tencent" loading="lazy">
+                                    </div>
+                                    <div>
+                                        <h4>Software Engineer &amp; Quality Engineer</h4>
+                                        <p class="profile-mini-org">Tencent</p>
+                                        <p class="profile-mini-date">Mar. 2022 – Dec. 2022</p>
+                                        <p class="profile-mini-desc">Quality analytics and release decision support.</p>
+                                    </div>
+                                </div>
+                                <div class="profile-mini-item">
+                                    <div class="profile-mini-logo">
+                                        <img src="assets/icon_tx.png" alt="Tencent" loading="lazy">
+                                    </div>
+                                    <div>
+                                        <h4>Software System Test Engineer Intern</h4>
+                                        <p class="profile-mini-org">Tencent</p>
+                                        <p class="profile-mini-date">Apr. 2021 – Sept. 2021</p>
+                                        <p class="profile-mini-desc">Android UI automated testing for Tencent Video.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="profile-contact-card bg-neutral-100 rounded-xl p-5">
+                            <h3 class="font-serif font-bold text-lg text-primary mb-4 pb-2 border-b border-neutral-200 flex items-center">
+                                <i class="fas fa-address-card text-accent mr-2 text-base"></i> Contact
                             </h3>
                             <ul class="space-y-3">
-                                <li class="flex items-center text-neutral-700 hover:text-primary transition-colors">
-                                    <i class="fas fa-star text-accent/80 mr-3 w-5 text-center text-sm"></i>
-                                    <span class="text-sm font-medium">AI for Software Engineering</span>
+                                <li class="flex items-start text-neutral-700">
+                                    <i class="fas fa-envelope text-accent/80 mt-1 mr-3 w-5 text-center text-sm"></i>
+                                    <a href="mailto:chenhuicui97@gmail.com" class="text-sm font-medium hover:text-primary">chenhuicui97@gmail.com</a>
                                 </li>
-                                <li class="flex items-center text-neutral-700 hover:text-primary transition-colors">
-                                    <i class="fas fa-star text-accent/80 mr-3 w-5 text-center text-sm"></i>
-                                    <span class="text-sm font-medium">Coding Agents & Agentic Software Engineering</span>
-                                </li>
-                                <li class="flex items-center text-neutral-700 hover:text-primary transition-colors">
-                                    <i class="fas fa-star text-accent/80 mr-3 w-5 text-center text-sm"></i>
-                                    <span class="text-sm font-medium">Software Testing & Quality Assurance</span>
-                                </li>
-                                <li class="flex items-center text-neutral-700 hover:text-primary transition-colors">
-                                    <i class="fas fa-star text-accent/80 mr-3 w-5 text-center text-sm"></i>
-                                    <span class="text-sm font-medium">Agent Evaluation & Reliability</span>
+                                <li class="flex items-start text-neutral-700">
+                                    <i class="fas fa-map-marker-alt text-accent/80 mt-1 mr-3 w-5 text-center text-sm"></i>
+                                    <span class="text-sm font-medium">University of Alberta<br>Edmonton, Alberta, Canada</span>
                                 </li>
                             </ul>
                         </div>
@@ -142,261 +219,71 @@
                 <div class="content-column space-y-12">
 
                     <!-- About Section -->
-                    <section id="homepage" class="scroll-mt-24">
+                    <section id="homepage" class="content-panel home-panel active-panel scroll-mt-24">
                         <span id="about"></span> <!-- Anchor for About link -->
-                        <div class="section-header">
-                            <h2 class="text-3xl font-serif font-bold text-primary">About Me</h2>
-                        </div>
-                        <div class="prose max-w-none text-neutral-600 text-justify formal-font">
-                            <p class="mb-4">
-                                I am a postdoc research fellow at the University of Alberta, working with Prof. Lei Ma.
-                                I received my Ph.D. in Computer Technology and Its Applications from Macau University of Science and Technology (MUST) on June 22, 2026, advised by Prof. Rubing Huang.
-                                I received my M.S. degree (2022) and B.S. degree (2019) from Jiangsu University.
-                            </p>
-
-                            <p class="mb-4">
-                                My research lies at the intersection of AI and software engineering.
-                                My previous work studied software testing, adaptive random testing, and mobile/web GUI testing.
-                                Moving forward, I am expanding this line toward coding agents and agent-oriented software engineering, focusing on how agents understand, modify, test, and maintain real software systems.
-                                Starting in July 2026, I will join Hithink RoyalFlush Information Network Co., Ltd. (Tonghuashun), working on agent-oriented software systems.
-                            </p>
-
-                            <div class="highlight-box bg-accent/10 border-l-4 border-accent p-4 rounded-r-lg text-left font-sans">
-                                <p>
-                                    <strong><i class="fas fa-lightbulb text-accent mr-2"></i>I am open to research collaboration.</strong>
-                                    If you are interested in AI for Software Engineering, coding agents, agent evaluation, or software testing, feel free to reach out:
-                                    <a href="mailto:chenhuicui97@gmail.com" class="link-highlight">chenhuicui97@gmail.com</a>.
+                        <div class="home-section-card">
+                            <div class="section-header">
+                                <h2 class="text-3xl font-serif font-bold text-primary">About Me</h2>
+                            </div>
+                            <div class="prose max-w-none text-neutral-600 text-justify formal-font">
+                                <p class="mb-4">
+                                    I am a postdoc research fellow at the University of Alberta, working with Prof. Lei Ma.
+                                    I received my Ph.D. in Computer Technology and Its Applications from Macau University of Science and Technology (MUST) on June 22, 2026, advised by Prof. Rubing Huang.
+                                    I received my M.S. degree (2022) and B.S. degree (2019) from Jiangsu University.
                                 </p>
-                            </div>
-                        </div>
-                    </section>
 
+                                <p class="mb-4">
+                                    My research lies at the intersection of AI and software engineering.
+                                    My previous work studied software testing, adaptive random testing, and mobile/web GUI testing.
+                                    Moving forward, I am expanding this line toward coding agents and agent-oriented software engineering, focusing on how agents understand, modify, test, and maintain real software systems.
+                                    Starting in July 2026, I will join Hithink RoyalFlush Information Network Co., Ltd. (Tonghuashun), working on agent-oriented software systems.
+                                </p>
 
-                    <section id="educations" class="scroll-mt-24">
-                        <!-- 两列：左 Education，右 Experience -->
-                        <div class="grid lg:grid-cols-2 gap-8 items-start">
-                            <!-- 左列：Education -->
-                            <div>
-                                <div class="section-header">
-                                    <h2 class="text-3xl font-serif font-bold text-primary">🎓 Education</h2>
-                                </div>
-
-                                <div class="timeline space-y-6">
-                                    <!-- PhD -->
-                                    <div class="timeline-item flex items-start gap-4">
-                                        <div class="school-logo-container w-16 h-16 flex-shrink-0 flex items-center justify-center">
-                                            <img
-                                                    src="assets/logo_must.png"
-                                                    alt="Macau University of Science and Technology logo"
-                                                    class="w-12 h-12 object-contain"
-                                                    loading="lazy"
-                                            />
-                                        </div>
-                                        <div class="timeline-content">
-                                            <h3 class="font-semibold text-primary">Ph.D.</h3>
-                                            <p class="text-sm text-accent font-medium">Macau University of Science and Technology (MUST)</p>
-                                            <p class="text-sm text-neutral-500">Sept. 2023 – Jun. 2026</p>
-                                            <p class="text-sm text-neutral-600 mt-1">
-                                                Ph.D. in Computer Technology and Its Applications. Advisor: Prof. Rubing Huang.
-                                            </p>
-                                        </div>
-                                    </div>
-
-                                    <!-- MS -->
-                                    <div class="timeline-item flex items-start gap-4">
-                                        <div class="school-logo-container w-16 h-16 flex-shrink-0 flex items-center justify-center">
-                                            <img
-                                                    src="assets/logo_jsu.png"
-                                                    alt="Jiangsu University logo"
-                                                    class="w-12 h-12 object-contain"
-                                                    loading="lazy"
-                                            />
-                                        </div>
-                                        <div class="timeline-content">
-                                            <h3 class="font-semibold text-primary">M.S.</h3>
-                                            <p class="text-sm text-accent font-medium">Jiangsu University</p>
-                                            <p class="text-sm text-neutral-500">2019 – 2022</p>
-                                            <p class="text-sm text-neutral-600 mt-1">
-                                                M.S. in Computer Science and Technology
-                                            </p>
-                                        </div>
-                                    </div>
-
-                                    <!-- BS -->
-                                    <div class="timeline-item flex items-start gap-4">
-                                        <div class="school-logo-container w-16 h-16 flex-shrink-0 flex items-center justify-center">
-                                            <img
-                                                    src="assets/logo_jsu.png"
-                                                    alt="Jiangsu University logo"
-                                                    class="w-12 h-12 object-contain"
-                                                    loading="lazy"
-                                            />
-                                        </div>
-                                        <div class="timeline-content">
-                                            <h3 class="font-semibold text-primary">B.S.</h3>
-                                            <p class="text-sm text-accent font-medium">Jiangsu University</p>
-                                            <p class="text-sm text-neutral-500">2015 – 2019</p>
-                                            <p class="text-sm text-neutral-600 mt-1">
-                                                B.S. in Software Engineering
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- 右列：Experience -->
-                            <div>
-                                <div class="section-header">
-                                    <h2 class="text-3xl font-serif font-bold text-primary">💼 Work Experience</h2>
-                                </div>
-
-                                <div class="timeline space-y-6">
-                                    <!-- Postdoc -->
-                                    <div class="timeline-item flex items-start gap-4">
-                                        <div class="school-logo-container w-16 h-16 flex-shrink-0 flex items-center justify-center">
-                                            <img
-                                                    src="assets/logo_ualberta.png"
-                                                    alt="University of Alberta emblem"
-                                                    class="w-12 h-12 object-contain"
-                                                    loading="lazy"
-                                            />
-                                        </div>
-                                        <div class="timeline-content">
-                                            <h3 class="font-semibold text-primary">Postdoc Research Fellow</h3>
-                                            <p class="text-sm text-accent font-medium">University of Alberta · Edmonton, Canada</p>
-                                            <p class="text-sm text-neutral-500">Jun. 2026 – Present</p>
-                                            <p class="text-sm text-neutral-600 mt-1">
-                                                Research on AI for Software Engineering, coding agents, and agent-oriented software engineering with Prof. Lei Ma.
-                                            </p>
-                                        </div>
-                                    </div>
-
-                                    <!-- Incoming full-time -->
-                                    <div class="timeline-item flex items-start gap-4">
-                                        <div class="school-logo-container w-16 h-16 flex-shrink-0 flex items-center justify-center">
-                                            <img
-                                                    src="assets/logo_tonghuashun.png"
-                                                    alt="Tonghuashun logo"
-                                                    class="w-14 h-14 object-contain"
-                                                    loading="lazy"
-                                            />
-                                        </div>
-                                        <div class="timeline-content">
-                                            <h3 class="font-semibold text-primary">Incoming Agent-Oriented R&D Role</h3>
-                                            <p class="text-sm text-accent font-medium">Hithink RoyalFlush Information Network Co., Ltd. (Tonghuashun) · China</p>
-                                            <p class="text-sm text-neutral-500">Starting Jul. 2026</p>
-                                            <p class="text-sm text-neutral-600 mt-1">
-                                                Work on agent-oriented software systems and applied agent engineering.
-                                            </p>
-                                        </div>
-                                    </div>
-
-                                    <!-- Full-time -->
-                                    <div class="timeline-item flex items-start gap-4">
-                                        <div class="school-logo-container w-16 h-16 flex-shrink-0 flex items-center justify-center">
-                                            <img
-                                                    src="assets/icon_tx.png"
-                                                    alt="Tencent"
-                                                    class="w-12 h-12 object-contain"
-                                                    loading="lazy"
-                                            />
-                                        </div>
-                                        <div class="timeline-content">
-                                            <h3 class="font-semibold text-primary">Software Engineer (Backend) & Software Quality Engineer</h3>
-                                            <p class="text-sm text-accent font-medium">Tencent Technology (Shenzhen) Co., Ltd. · Shenzhen, China</p>
-                                            <p class="text-sm text-neutral-500">Mar. 2022 – Dec. 2022</p>
-                                            <p class="text-sm text-neutral-600 mt-1">
-                                                Quality analytics & release decision support for flagship products.
-                                            </p>
-                                        </div>
-                                    </div>
-
-                                    <!-- Internship -->
-                                    <div class="timeline-item flex items-start gap-4">
-                                        <div class="school-logo-container w-16 h-16 flex-shrink-0 flex items-center justify-center">
-                                            <img
-                                                    src="assets/icon_tx.png"
-                                                    alt="Tencent"
-                                                    class="w-12 h-12 object-contain"
-                                                    loading="lazy"
-                                            />
-                                        </div>
-                                        <div class="timeline-content">
-                                            <h3 class="font-semibold text-primary">Software System Test Engineer Intern</h3>
-                                            <p class="text-sm text-accent font-medium">Tencent Technology (Shenzhen) Co., Ltd. · Shenzhen, China</p>
-                                            <p class="text-sm text-neutral-500">Apr. 2021 – Sept. 2021</p>
-                                            <p class="text-sm text-neutral-600 mt-1">
-                                                Android UI automated testing for Tencent Video.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-
-
-                    <!-- Research Thrust Section -->
-                    <section id="research-thrust" class="scroll-mt-24">
-                        <div class="section-header">
-                            <h2 class="text-3xl font-serif font-bold text-primary">🚀 Research Thrust</h2>
-                        </div>
-
-                        <div class="prose max-w-none text-neutral-600 text-justify formal-font">
-                            <blockquote class="pl-4 border-l-4 border-accent/30 italic text-neutral-600 bg-neutral-50/50 p-4 rounded-r-lg mb-6">
-                                "I study how AI agents can be engineered, evaluated, and integrated into software development workflows.
-                                My near-term focus is on coding agents: their repository-level reasoning, tool use, test-feedback loops, and reliability in real-world engineering settings."
-                            </blockquote>
-
-                            <div class="grid md:grid-cols-2 gap-6">
-                                <!-- Thrust 1 -->
-                                <div class="thrust-card bg-neutral-50 rounded-xl p-5 border border-neutral-100 hover:shadow-md transition-all duration-300 group flex flex-col h-full">
-                                    <h3 class="font-serif font-bold text-lg text-primary mb-4 flex items-center group-hover:text-accent transition-colors">
-                                        <i class="fas fa-project-diagram text-accent mr-2 group-hover:scale-110 transition-transform"></i>
-                                        Coding Agents & Agentic Software Engineering
-                                    </h3>
-                                    <p class="text-sm leading-relaxed text-justify text-neutral-600 flex-grow">
-                                        I am interested in how coding agents plan, edit, test, and maintain software across realistic repositories, and how agent workflows can be constructed to support reliable software development.
-                                    </p>
-                                </div>
-
-                                <!-- Thrust 2 -->
-                                <div class="thrust-card bg-neutral-50 rounded-xl p-5 border border-neutral-100 hover:shadow-md transition-all duration-300 group flex flex-col h-full">
-                                    <h3 class="font-serif font-bold text-lg text-primary mb-4 flex items-center group-hover:text-accent transition-colors">
-                                        <i class="fas fa-brain text-accent mr-2 group-hover:scale-110 transition-transform"></i>
-                                        AI for Software Engineering & Software Quality
-                                    </h3>
-                                    <p class="text-sm leading-relaxed text-justify text-neutral-600 flex-grow">
-                                        My previous work in software testing, adaptive random testing, and mobile/web GUI testing provides the quality-assurance foundation for my current AI&SE direction.
-                                        I am interested in using AI techniques to improve software testing, maintenance, and evaluation under practical engineering constraints.
+                                <div class="highlight-box bg-accent/10 border-l-4 border-accent p-4 rounded-r-lg text-left font-sans">
+                                    <p>
+                                        <strong><i class="fas fa-lightbulb text-accent mr-2"></i>I am open to research collaboration.</strong>
+                                        If you are interested in AI for Software Engineering, coding agents, agent evaluation, or software testing, feel free to reach out:
+                                        <a href="mailto:chenhuicui97@gmail.com" class="link-highlight">chenhuicui97@gmail.com</a>.
                                     </p>
                                 </div>
                             </div>
                         </div>
+
+                        <div class="home-section-card">
+                            <div class="section-header">
+                                <h2 class="text-3xl font-serif font-bold text-primary">Research Interests</h2>
+                            </div>
+                            <div class="grid sm:grid-cols-2 gap-4">
+                                <div class="research-interest-item">
+                                    <i class="fas fa-star text-accent/80"></i>
+                                    <span>AI for Software Engineering</span>
+                                </div>
+                                <div class="research-interest-item">
+                                    <i class="fas fa-star text-accent/80"></i>
+                                    <span>Coding Agents &amp; Agentic Software Engineering</span>
+                                </div>
+                                <div class="research-interest-item">
+                                    <i class="fas fa-star text-accent/80"></i>
+                                    <span>Software Testing &amp; Quality Assurance</span>
+                                </div>
+                                <div class="research-interest-item">
+                                    <i class="fas fa-star text-accent/80"></i>
+                                    <span>Agent Evaluation &amp; Reliability</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="latest-news" class="home-section-card">
+                            <div class="section-header mb-6 flex justify-between items-center">
+                                <h2 class="text-3xl font-serif font-bold text-primary">🔥 News</h2>
+                                <a href="pages/all-news.html" class="text-sm font-medium text-accent hover:text-accent-dark transition-colors">View All <i class="fas fa-arrow-right ml-1"></i></a>
+                            </div>
+                            <div id="news-container" class="news-list space-y-4">
+                                <!-- Dynamic Content loaded from data/news.json -->
+                            </div>
+                        </div>
                     </section>
 
-                    <!-- News Section -->
-                    <section id="latest-news" class="scroll-mt-24">
-                        <div class="section-header mb-6 flex justify-between items-center">
-                            <h2 class="text-3xl font-serif font-bold text-primary">🔥 News</h2>
-                            <a href="pages/all-news.html" class="text-sm font-medium text-accent hover:text-accent-dark transition-colors">View All <i class="fas fa-arrow-right ml-1"></i></a>
-                        </div>
-                        <div id="news-container" class="news-list space-y-4">
-                            <!-- Dynamic Content loaded from data/news.json -->
-                        </div>
-                    </section>
-
-                    <!-- Publications Section -->
-                    <section id="publications" class="scroll-mt-24">
-                        <div class="section-header">
-                            <h2 class="text-3xl font-serif font-bold text-primary">📄 Publications</h2>
-                            <p class="text-sm text-neutral-500 mt-1">(Ordered by publication year)</p>
-                        </div>
-
-                        <div class="publications-list space-y-6">
-                            <!-- Dynamic Content loaded from data/publications.json -->
-                        </div>
-                    </section>
 
                     <!-- Honors Section -->
 <!--                    <section id="honors" class="scroll-mt-24">-->
@@ -410,7 +297,7 @@
 <!--                    </section>-->
 
                     <!-- Academic Service Section -->
-                    <section id="services" class="scroll-mt-24">
+                    <section id="services" class="content-panel scroll-mt-24">
                         <div class="section-header">
                             <h2 class="text-3xl font-serif font-bold text-primary">💼 Academic Service</h2>
                         </div>
@@ -446,32 +333,6 @@
                         </div>
                     </section>
 
-
-
-                    <!-- Contact Section -->
-                    <section id="contact" class="scroll-mt-24 mb-12">
-                         <div class="section-header">
-                            <h2 class="text-3xl font-serif font-bold text-primary">📬 Contact</h2>
-                        </div>
-                         <div class="contact-card bg-neutral-50 rounded-xl p-6 border border-neutral-100">
-                            <div class="grid md:grid-cols-2 gap-6">
-                                <div>
-                                    <h3 class="font-serif font-bold text-lg text-primary mb-3">Contact Information</h3>
-                                    <ul class="space-y-3 text-neutral-600">
-                                        <li class="flex items-start">
-                                            <i class="fas fa-envelope mt-1 w-5 text-accent"></i>
-                                            <span class="ml-2">chenhuicui97@gmail.com</span>
-                                        </li>
-                                        <li class="flex items-start">
-                                            <i class="fas fa-map-marker-alt mt-1 w-5 text-accent"></i>
-                                            <span class="ml-2">University of Alberta<br>Edmonton, Alberta, Canada</span>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-
                 </div>
             </div>
         </div>
@@ -487,6 +348,6 @@
 <!--        </div>-->
 <!--    </footer>-->
 
-    <script src="script.js"></script>
+    <script src="script.js?v=20260701g"></script>
 </body>
 </html>
