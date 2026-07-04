@@ -372,6 +372,31 @@ section {
     color: #1e293b;
 }
 
+.company-inline-link {
+    align-items: center;
+    display: inline-flex;
+    gap: 0.28rem;
+    line-height: 1.2;
+    vertical-align: -0.08em;
+}
+
+.company-inline-emphasis {
+    color: #b88a4d;
+    font-weight: 700;
+}
+
+.company-inline-icon {
+    border-radius: 4px;
+    display: inline-block;
+    height: 1.05em;
+    object-fit: contain;
+    width: 1.05em;
+}
+
+.company-inline-icon-wide {
+    width: 1.25em;
+}
+
 /* Research Highlights (Accordion/Details Style if needed, but using clean list for now) */
 details summary {
     cursor: pointer;
