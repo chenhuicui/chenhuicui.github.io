@@ -358,6 +358,20 @@ section {
     color: #d4a562;
 }
 
+.link-highlight {
+    border-bottom: 1px solid rgba(212, 165, 98, 0.45);
+    color: #b88a4d;
+    font-weight: 700;
+    text-decoration: none;
+    transition: color 0.18s ease, border-color 0.18s ease, background-color 0.18s ease;
+}
+
+.link-highlight:hover {
+    background-color: rgba(212, 165, 98, 0.1);
+    border-bottom-color: #d4a562;
+    color: #1e293b;
+}
+
 /* Research Highlights (Accordion/Details Style if needed, but using clean list for now) */
 details summary {
     cursor: pointer;
