@@ -92,7 +92,7 @@ document.addEventListener('DOMContentLoaded', function() {
         newsJsonPath = '../data/news.json';
     }
     
-    fetch(newsJsonPath)
+    fetch(`${newsJsonPath}?v=20260817a`)
         .then(response => response.json())
         .then(data => {
             // Check if we're on the homepage
@@ -235,7 +235,7 @@ function loadPublications() {
     // Clear existing publications
     publicationsList.innerHTML = '';
     
-    fetch(`${publicationsJsonPath}?v=20260701c`)
+    fetch(`${publicationsJsonPath}?v=20260817a`)
         .then(response => {
             if (!response.ok) {
                 throw new Error('Network response was not ok');
@@ -836,6 +836,7 @@ function getVenueShortName(venueStr, year) {
         { key: ["Journal of Systems and Software", "JSS"], short: "JSS" },
         { key: ["Engineering Applications of Artificial Intelligence", "EAAI"], short: "EAAI" },
         { key: ["Applied Soft Computing", "ASC"], short: "ASC" },
+        { key: ["Frontiers of Computer Science", "FCS"], short: "FCS" },
 
         // Conferences
         { key: ["International Conference on Software Engineering", "ICSE"], short: "ICSE", conf: true },
@@ -881,6 +882,8 @@ function getVenueFullName(venueStr, year) {
         return "Engineering Applications of Artificial Intelligence";
     if (s.includes("ASC") || s.includes("Applied Soft Computing"))
         return "Applied Soft Computing";
+    if (s.includes("FCS") || s.includes("Frontiers of Computer Science"))
+        return "Frontiers of Computer Science";
 
     // Conferences (with year suffix)
     if (s.includes("ICSE") || s.includes("International Conference on Software Engineering"))
@@ -910,7 +913,8 @@ function getCCFRank(fullName) {
     }
 
     if (
-        v.includes("Science of Computer Programming")
+        v.includes("Science of Computer Programming") ||
+        v.includes("Frontiers of Computer Science")
     ) {
         return "B";
     }

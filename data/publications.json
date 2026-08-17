@@ -1,5 +1,15 @@
 [
   {
+    "title": "LSem2Vec: A Simple yet Effective Two-Stage Approach for Source Code Embedding",
+    "authors": "Zixiang Xian, <strong>Chenhui Cui</strong>, Tao Li, Rubing Huang, Chunrong Fang, and Zhenyu Chen",
+    "venue": "FCS 2026",
+    "year": "2026",
+    "highlight": "Accepted",
+    "thumbnail": "assets/publications/lsem2vec-framework.png",
+    "links": [],
+    "topics": ["other"]
+  },
+  {
     "title": "LRASGen: LLM-based RESTful API Specification Generation",
     "authors": "Sida Deng, Rubing Huang, Man Zhang, <strong>Chenhui Cui</strong>, Dave Towey, and Rongcun Wang",
     "venue": "TOSEM 2026",
