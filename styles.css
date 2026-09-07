@@ -577,22 +577,34 @@ details summary {
     gap: 2rem;
     margin: 0 auto;
     max-width: 1380px;
-    padding: 2rem 1.25rem 3rem;
+    min-height: 100vh;
+    padding: 5rem 1rem 3rem;
 }
 
-.publication-page .page-shell {
-    padding-top: 6.5rem;
+@media (min-width: 640px) {
+    .page-shell {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
 }
 
 @media (min-width: 1024px) {
-    .publication-page .page-shell {
-        padding-top: 7.75rem;
+    .page-shell {
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-top: 7rem;
     }
 }
 
 .publication-page-layout {
-    grid-template-columns: 380px minmax(0, 1fr);
     align-items: start;
+}
+
+@media (min-width: 861px) {
+    .publication-page-layout {
+        gap: clamp(2rem, 4vw, 4rem);
+        grid-template-columns: 380px minmax(0, 1fr);
+    }
 }
 
 .mini-profile-card,
@@ -613,7 +625,7 @@ details summary {
 
 .page-profile-card {
     position: sticky;
-    top: 76px;
+    top: 6rem;
 }
 
 .mini-profile-photo {
