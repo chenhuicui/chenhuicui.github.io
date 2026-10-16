@@ -92,7 +92,7 @@ document.addEventListener('DOMContentLoaded', function() {
         newsJsonPath = '../data/news.json';
     }
     
-    fetch(`${newsJsonPath}?v=20260817a`)
+    fetch(`${newsJsonPath}?v=20261016`)
         .then(response => response.json())
         .then(data => {
             // Check if we're on the homepage
