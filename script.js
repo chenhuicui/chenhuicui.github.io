@@ -92,7 +92,7 @@ document.addEventListener('DOMContentLoaded', function() {
         newsJsonPath = '../data/news.json';
     }
     
-    fetch(`${newsJsonPath}?v=20261016`)
+    fetch(`${newsJsonPath}?v=20261105a`)
         .then(response => response.json())
         .then(data => {
             // Check if we're on the homepage
@@ -235,7 +235,7 @@ function loadPublications() {
     // Clear existing publications
     publicationsList.innerHTML = '';
     
-    fetch(`${publicationsJsonPath}?v=20260817a`)
+    fetch(`${publicationsJsonPath}?v=20261105a`)
         .then(response => {
             if (!response.ok) {
                 throw new Error('Network response was not ok');
