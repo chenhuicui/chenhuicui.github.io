@@ -1,7 +1,14 @@
 [
   {
     "date": "2026-11-25",
-    "content": "Our paper \"LLMCFG-TGen: Using LLM-Generated Control Flow Graphs to Automatically Create Test Cases from Use Cases\" has been accepted by ACM Transactions on Software Engineering and Methodology (TOSEM).",
+    "content": "I was invited to serve on the Program Committee of <strong>The 1st International Workshop on Embodied AI Quality and Safety (EQualS 2027)</strong>, co-located with the ACM International Conference on the Foundations of Software Engineering (FSE 2027; CCF A). The main conference will take place in Shenzhen, China, on 12–16 July 2027.",
+    "links": [
+      { "text": "Workshop Website", "url": "https://equals-workshop.github.io/2027/" }
+    ]
+  },
+  {
+    "date": "2026-11-25",
+    "content": "Our paper \"LLMCFG-TGen: Using LLM-Generated Control Flow Graphs to Automatically Create Test Cases from Use Cases\" has been accepted by ACM Transactions on Software Engineering and Methodology (TOSEM; JCR Q1, CCF A).",
     "links": []
   },
   {
@@ -16,7 +23,7 @@
   },
   {
     "date": "2026-08-13",
-    "content": "Our paper \"LSem2Vec: A Simple yet Effective Two-Stage Approach for Source Code Embedding\" has been accepted by Frontiers of Computer Science.",
+    "content": "Our paper \"LSem2Vec: A Simple yet Effective Two-Stage Approach for Source Code Embedding\" has been accepted by Frontiers of Computer Science (FCS; JCR Q1, CCF B).",
     "links": []
   },
   {
@@ -31,42 +38,42 @@
   },
   {
     "date": "2026-04-14",
-    "content": "Our paper \"LRASGen: LLM-based RESTful API Specification Generation\" has been accepted by ACM Transactions on Software Engineering and Methodology (TOSEM).",
+    "content": "Our paper \"LRASGen: LLM-based RESTful API Specification Generation\" has been accepted by ACM Transactions on Software Engineering and Methodology (TOSEM; JCR Q1, CCF A).",
     "links": []
   },
   {
     "date": "2026-02-09",
-    "content": "Our RCR report paper \"Large Language Models for Automated Web-Form-Test Generation: An Empirical Study — RCR Report\" has been accepted by ACM Transactions on Software Engineering and Methodology (TOSEM).",
+    "content": "Our RCR report paper \"Large Language Models for Automated Web-Form-Test Generation: An Empirical Study — RCR Report\" has been accepted by ACM Transactions on Software Engineering and Methodology (TOSEM; JCR Q1, CCF A).",
     "links": []
   },
   {
     "date": "2025-12-22",
-    "content": "Our paper \"A Novel Vision-based Approach to Test Sequence Generation for Mobile GUI Testing\" has been accepted by IEEE Transactions on Reliability.",
+    "content": "Our paper \"A Novel Vision-based Approach to Test Sequence Generation for Mobile GUI Testing\" has been accepted by IEEE Transactions on Reliability (TR; JCR Q1, CCF C).",
     "links": []
   },
   {
     "date": "2025-09-30",
-    "content": "Our TSE paper \"Toward Cost-effective Adaptive Random Testing: An Approximate Nearest Neighbor Approach\" has been accepted by the Journal-First Track of the 40th IEEE/ACM International Conference on Automated Software Engineering (ASE 2025).",
+    "content": "Our paper \"Toward Cost-effective Adaptive Random Testing: An Approximate Nearest Neighbor Approach\", published in IEEE Transactions on Software Engineering (TSE; JCR Q1, CCF A), has been accepted for presentation in the Journal-First Track of the 40th IEEE/ACM International Conference on Automated Software Engineering (ASE 2025; CCF A).",
     "links": []
   },
   {
     "date": "2025-09-30",
-    "content": "Our TOSEM paper \"Large Language Models for Automated Web-Form-Test Generation: An Empirical Study\" has been accepted by the Journal-First Track of the 40th IEEE/ACM International Conference on Automated Software Engineering (ASE 2025).",
+    "content": "Our paper \"Large Language Models for Automated Web-Form-Test Generation: An Empirical Study\", published in ACM Transactions on Software Engineering and Methodology (TOSEM; JCR Q1, CCF A), has been accepted for presentation in the Journal-First Track of the 40th IEEE/ACM International Conference on Automated Software Engineering (ASE 2025; CCF A).",
     "links": []
   },
   {
     "date": "2025-09-05",
-    "content": "Our paper \"Adaptive Random Testing of Deep Learning Systems Using Image Hashing\" has been accepted by IEEE Transactions on Reliability.",
+    "content": "Our paper \"Adaptive Random Testing of Deep Learning Systems Using Image Hashing\" has been accepted by IEEE Transactions on Reliability (TR; JCR Q1, CCF C).",
     "links": []
   },
   {
     "date": "2025-08-25",
-    "content": "Our paper \"Ribonucleic-Acid Protein Interaction Prediction Based on Deep Learning: A Comprehensive Survey\" has been accepted by Applied Soft Computing.",
+    "content": "Our paper \"Ribonucleic-Acid Protein Interaction Prediction Based on Deep Learning: A Comprehensive Survey\" has been accepted by Applied Soft Computing (JCR Q1, unlisted in the CCF A/B/C directory).",
     "links": []
   },
   {
     "date": "2025-05-06",
-    "content": "Our paper \"Large Language Models for Automated Web-Form-Test Generation: An Empirical Study\" has been accepted by ACM Transactions on Software Engineering and Methodology (TOSEM).",
+    "content": "Our paper \"Large Language Models for Automated Web-Form-Test Generation: An Empirical Study\" has been accepted by ACM Transactions on Software Engineering and Methodology (TOSEM; JCR Q1, CCF A).",
     "links": []
   }
 ]
