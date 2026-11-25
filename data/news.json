@@ -1,15 +1,15 @@
 [
   {
     "date": "2026-11-25",
+    "content": "Our paper \"LLMCFG-TGen: Using LLM-Generated Control Flow Graphs to Automatically Create Test Cases from Use Cases\" has been accepted by ACM Transactions on Software Engineering and Methodology (TOSEM; JCR Q1, CCF A).",
+    "links": []
+  },
+  {
+    "date": "2026-11-14",
     "content": "I was invited to serve on the Program Committee of <strong>The 1st International Workshop on Embodied AI Quality and Safety (EQualS 2027)</strong>, co-located with the ACM International Conference on the Foundations of Software Engineering (FSE 2027; CCF A). The main conference will take place in Shenzhen, China, on 12–16 July 2027.",
     "links": [
       { "text": "Workshop Website", "url": "https://equals-workshop.github.io/2027/" }
     ]
-  },
-  {
-    "date": "2026-11-25",
-    "content": "Our paper \"LLMCFG-TGen: Using LLM-Generated Control Flow Graphs to Automatically Create Test Cases from Use Cases\" has been accepted by ACM Transactions on Software Engineering and Methodology (TOSEM; JCR Q1, CCF A).",
-    "links": []
   },
   {
     "date": "2026-11-04",
