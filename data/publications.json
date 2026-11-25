@@ -1,5 +1,15 @@
 [
   {
+    "title": "LLMCFG-TGen: Using LLM-Generated Control Flow Graphs to Automatically Create Test Cases from Use Cases",
+    "authors": "Zhenzhen Yang, <strong>Chenhui Cui</strong>, Tao Li, Rubing Huang, Nan Niu, Dave Towey, and Shikai Guo",
+    "venue": "TOSEM 2026",
+    "year": "2026",
+    "highlight": "Accepted",
+    "thumbnail": "assets/publications/llmcfg-tgen-framework.png",
+    "links": [],
+    "topics": ["llm", "requirements"]
+  },
+  {
     "title": "LRASGen: LLM-based RESTful API Specification Generation — RCR Report",
     "authors": "Sida Deng, Rubing Huang, Man Zhang, <strong>Chenhui Cui</strong>, Dave Towey, and Rongcun Wang",
     "venue": "TOSEM 2026",
